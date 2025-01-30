@@ -1814,6 +1814,87 @@ body {
   background-image: linear-gradient(to right, #314755 0%, #26a0da 51%, #314755 100%);
 }
 
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+.absolute.top-0 {
+  top: 0;
+}
+.absolute.bottom-0 {
+  bottom: 0;
+}
+.absolute.left-0 {
+  left: 0;
+}
+.absolute.right-0 {
+  right: 0;
+}
+
+.static {
+  position: static;
+}
+
+.fixed {
+  position: fixed;
+}
+.fixed.top-0 {
+  top: 0;
+}
+.fixed.bottom-0 {
+  bottom: 0;
+}
+.fixed.left-0 {
+  left: 0;
+}
+.fixed.right-0 {
+  right: 0;
+}
+
+.sticky {
+  position: sticky;
+}
+.sticky.top-0 {
+  top: 0;
+}
+.sticky.left-0 {
+  left: 0;
+}
+.sticky.right-0 {
+  right: 0;
+}
+.sticky.left-0 {
+  left: 0;
+}
+/* grid properties */
+.grid.col-1 {
+  grid-template-columns: auto;
+}
+.grid.col-2 {
+  grid-template-columns: auto auto;
+}
+.grid.col-3 {
+  grid-template-columns: auto auto auto;
+}
+.grid.col-4 {
+  grid-template-columns: auto auto auto auto;
+}
+.grid.col-5 {
+  grid-template-columns: auto auto auto auto auto;
+}
+.grid.col-6 {
+  grid-template-columns: auto auto auto auto auto auto;
+}
+.grid.place-items-center {
+  place-items: center;
+}
+.grid.place-content-center {
+  place-content: center;
+}
+
 .btn-grad {
   margin: 10px;
   padding: 15px 45px;
