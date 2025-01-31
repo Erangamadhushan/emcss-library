@@ -2712,6 +2712,38 @@ background-color:var(--alice) .alert.alert-alice::before {
   grid-template-columns: auto;
 }
 
+.form .form-label {
+  color: #222;
+  font-size: 1em;
+  font-weight: 300;
+}
+.form .form-input {
+  display: block;
+  width: 100%;
+  padding: 0.8em;
+  border-radius: 0.4em;
+  outline: none;
+  border: 1px solid #999;
+}
+.form .form-select {
+  display: block;
+  width: 100%;
+  padding: 0.8em;
+  border-radius: 0.4em;
+  outline: none;
+  border: 1px solid #999;
+}
+.form .form-submit {
+  display: block;
+  padding: 10px;
+  width: 60%;
+  margin-inline: auto;
+  border: none;
+  border-radius: 0.8em;
+  cursor: pointer;
+}
+
+
 /* border-radius*/
 .rounded {
   border-radius: 12px;
