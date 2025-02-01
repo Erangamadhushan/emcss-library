@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
   margin: 0;
@@ -2961,15 +2962,40 @@ background-color:var(--alice) .alert.alert-alice::before {
 }
 .navbar .navbar-response {
   display: none;
-  padding: var(--p5);
+  padding: var(--p3);
   list-style-type: none;
 }
 .navbar .navbar-response .navbar-content-group {
   list-style-type: none;
-  gap: var(--p1);
+}
+.navbar .navbar-response .navbar-content-group .navbar-item {
+  margin-bottom: 0.8em;
 }
 .navbar .navbar-response .navbar-content-group .navbar-item .navbar-link {
   text-decoration: none;
+}
+
+.offcanvas {
+  width: min(400px, 100%);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #222;
+  transform: translateX(0);
+  transition: all 0.3s;
+}
+.offcanvas.active {
+  transform: translateX(-100%);
+  transition: all 0.3s;
+}
+.offcanvas .offcanvas-close::before {
+  content: "⛌";
+  position: absolute;
+  top: 1.25em;
+  right: 1.25em;
+  color: #fff;
+  cursor: pointer;
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
