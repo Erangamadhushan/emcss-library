@@ -9,10 +9,11 @@
   /*==================================================== color =====================================================*/
   /*===============================================*/
   /* alice */
-  --alice:#656565;
-  --alice-25:#b9b9b9;
-  --alice-50:#a8a8a8;
-  --alice-75:#868686;
+  --alice:#dfe0e1;
+  --alice-25:#f9fafb;
+  --alice-50:#f9fafb;
+  --alice-75:#f8f9fa;
+
   /*===============================================*/
   /*lagoon*/
   --lagoon:#011b02;
@@ -21,23 +22,26 @@
   --lagoon-75:#012203;
   /*===============================================*/
   /*cayman*/
-  --cayman:#0d0e1c;
-  --cayman-25:#40414f;
-  --cayman-50:#282a39;
-  --cayman-75:#101223;
+  --cayman:#141430;
+  --cayman-25:#323379;
+  --cayman-50:#282960;
+  --cayman-75:#1e1f48;
+
   /* #041e42*/
   /*===============================================*/
   /*dark*/
-  --dark:#131313;
-  --dark-25:#464646;
-  --dark-50:#2f2f2f;
-  --dark-75:#181818;
+  --dark:#10151c;
+  --dark-25:#19212c;
+  --dark-50:#161d27;
+  --dark-75:#131921;
+
   /*===============================================*/
   /*maroon*/
-  --maroon:#400015;
-  --maroon-25:#7d334b;
-  --maroon-50:#5c001e;
-  --maroon-75:#53001b;
+  --maroon:#bf0036;
+  --maroon-25:#f11a57;
+  --maroon-50:#ef0044;
+  --maroon-75:#d7003d;
+
   /*==============================================*/
   /*mint*/
   --mint:#347929;
@@ -46,28 +50,58 @@
   --mint-75:#3a862d;
   /*===============================================*/
   /*neo*/
-  --neo:#989a22;
-  --neo-25:#c1c27a;
-  --neo-50:#adae4e;
-  --neo-75:#a2a438;
+  --neo:#fbd12c;
+  --neo-25:#fce073;
+  --neo-50:#fcdb5b;
+  --neo-75:#fbd644;
+  /*===============================================*/
+  /*neon*/
+  --neon:#10b981;
+  --neon-25:#58cea7;
+  --neon-50:#40c79a;
+  --neon-75:#28c08e;
+  /*===============================================*/
+  /*orange*/
+  --orange:#f97316;
+  --orange-25:#fb9d5c;
+  --orange-50:#fa8f45;
+  --orange-75:#fa812d;
+
+  /*===============================================*/
+  /*olive*/
+  --olive:#a3b18a;
+  --olive-25:#bfc8ad;
+  --olive-50:#b5c1a1;
+  --olive-75:#acb996;
+
+  /*===============================================*/
+  /*lime*/
+  --lime:#22c55e;
+  --lime-25:#64d68e;
+  --lime-50:#4ed17e;
+  --lime-75:#38cb6e;
+
+
   /*==============================================*/
   /*sea*/
-  --sea:#33bcc7;
-  --sea-25:#99dee3;
-  --sea-50:#70d0d8;
-  --sea-75:#47c3cd;
+  --sea:#70aefb;
+  --sea-25:#80b7fb;
+  --sea-50:#90c0fc;
+  --sea-75:#80b7fb;
+
   /*==============================================*/
   /*gray*/
-  --gray:#2e2e2e;
-  --gray-25:#888888;
-  --gray-50:#616161;
-  --gray-75:#393939;
+  --gray:#49494a;
+  --gray-25:#929294;
+  --gray-50:#7a7a7b;
+  --gray-75:#616262;
   /*==============================================*/
   /*purly*/
-  --purly:#663e79;
-  --purly-25:#b395c1;
-  --purly-50:#9971ac;
-  --purly-75:#804e97;
+  --purly:#8644c6;
+  --purly-25:#b166f8;
+  --purly-50:#a855f7;
+  --purly-75:#974dde;
+
   /*active-colors*/
   --alice-active:#87898a;
   --lagoon-active:#0c171a;
@@ -84,11 +118,11 @@
   --in:90%;
   --out:100%;
   /*padding values*/
-  --p1:.2em;
-  --p2:.4em;
+  --p1:.3em;
+  --p2:.6em;
   --p3:0.8em;
-  --p4:1em;
-  --p5:1.25em;
+  --p4:1.25em;
+  --p5:1.5em;
   /*font-weight and display-text */
   --display-1:5em;
   --display-2:4.5em;
@@ -97,11 +131,11 @@
   --display-5:3em;
   --display-6:2.5em;
   /*margin values*/
-  --m1:.2em;
-  --m2:.4em;
+  --m1:.3em;
+  --m2:.6em;
   --m3:.8em;
-  --m4:1em;
-  --m5:1.25em;
+  --m4:1.25em;
+  --m5:1.5em;
   /*button font size*/
   --s1:1em;
   --s2:1.05em;
@@ -297,6 +331,70 @@ body {
 
 .bg-neo-75 {
   background-color: var(--neo-75);
+}
+
+.bg-neon {
+  background-color: var(--neon);
+}
+
+.bg-neon-25 {
+  background-color: var(--neon-25);
+}
+
+.bg-neon-50 {
+  background-color: var(--neon-50);
+}
+
+.bg-neon-75 {
+  background-color: var(--neon-75);
+}
+
+.bg-orange {
+  background-color: var(--orange);
+}
+
+.bg-orange-25 {
+  background-color: var(--orange-25);
+}
+
+.bg-orange-50 {
+  background-color: var(--orange-50);
+}
+
+.bg-orange-75 {
+  background-color: var(--orange-75);
+}
+
+.bg-lime {
+  background-color: var(--lime);
+}
+
+.bg-lime-25 {
+  background-color: var(--lime-25);
+}
+
+.bg-lime-50 {
+  background-color: var(--lime-50);
+}
+
+.bg-lime-75 {
+  background-color: var(--lime-75);
+}
+
+.bg-olive {
+  background-color: var(--olive);
+}
+
+.bg-olive-25 {
+  background-color: var(--olive-25);
+}
+
+.bg-olive-50 {
+  background-color: var(--olive-50);
+}
+
+.bg-olive-75 {
+  background-color: var(--olive-75);
 }
 
 .bg-sea {
