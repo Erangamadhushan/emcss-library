@@ -9,7 +9,9 @@ $(document).ready(() => {
     });
 
     $(".offcanvas .offcanvas-close").click(function() {
-        $(".offcanvas").toggleClass('active');
+        $(".offcanvas").removeClass('active');
+    });
+    $(".offcanvas-toggler").on("click", () => {
+        $(".offcanvas").addClass('active');
     })
-
 });
