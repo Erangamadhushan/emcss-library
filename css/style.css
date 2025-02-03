@@ -744,6 +744,59 @@ body {
   background-position: right center;
   color: #fff;
 }
+.btn.btn-gradient-neon {
+  background-image: linear-gradient(to right, var(--neon) 0%, var(--neon-50) 51%, var(--neon-25) 100%);
+  transition: 0.5s;
+  background-size: 200% auto;
+  border: none;
+  color: #fff;
+  box-shadow: 0.1rem 0.1rem 1.5rem rgba(0, 0, 0, 0.3);
+  display: block;
+}
+.btn.btn-gradient-neon:hover {
+  background-position: right center;
+  color: #fff;
+}
+.btn.btn-gradient-orange {
+  background-image: linear-gradient(to right, var(--orange) 0%, var(--orange-50) 51%, var(--orange-25) 100%);
+  transition: 0.5s;
+  background-size: 200% auto;
+  border: none;
+  color: #fff;
+  box-shadow: 0.1rem 0.1rem 1.5rem rgba(0, 0, 0, 0.3);
+  display: block;
+}
+.btn.btn-gradient-orange:hover {
+  background-position: right center;
+  color: #fff;
+}
+.btn.btn-gradient-lime {
+  background-image: linear-gradient(to right, var(--lime) 0%, var(--lime-50) 51%, var(--lime-25) 100%);
+  transition: 0.5s;
+  background-size: 200% auto;
+  border: none;
+  color: #fff;
+  box-shadow: 0.1rem 0.1rem 1.5rem rgba(0, 0, 0, 0.3);
+  display: block;
+}
+.btn.btn-gradient-lime:hover {
+  background-position: right center;
+  color: #fff;
+}
+.btn.btn-gradient-olive {
+  background-image: linear-gradient(to right, var(--olive) 0%, var(--olive-50) 51%, var(--olive-25) 100%);
+  transition: 0.5s;
+  background-size: 200% auto;
+  border: none;
+  color: #fff;
+  box-shadow: 0.1rem 0.1rem 1.5rem rgba(0, 0, 0, 0.3);
+  display: block;
+}
+.btn.btn-gradient-olive:hover {
+  background-position: right center;
+  color: #fff;
+}
+
 .btn.btn-gradient-sea {
   background-image: linear-gradient(to right, var(--sea) 0%, var(--sea-50) 51%, var(--sea-25) 100%);
   transition: 0.5s;
@@ -855,6 +908,43 @@ body {
   background-color: var(--neo);
   color: #000;
 }
+.btn.btn-outline-neon {
+  background-color: transparent;
+  color: var(--neon);
+  border-color: var(--neon);
+}
+.btn.btn-outline-neon:hover {
+  background-color: var(--neon);
+  color: #000;
+}
+.btn.btn-outline-orange {
+  background-color: transparent;
+  color: var(--orange);
+  border-color: var(--orange);
+}
+.btn.btn-outline-orange:hover {
+  background-color: var(--orange);
+  color: #000;
+}
+.btn.btn-outline-lime {
+  background-color: transparent;
+  color: var(--lime);
+  border-color: var(--lime);
+}
+.btn.btn-outline-lime:hover {
+  background-color: var(--lime);
+  color: #000;
+}
+.btn.btn-outline-olive {
+  background-color: transparent;
+  color: var(--olive);
+  border-color: var(--olive);
+}
+.btn.btn-outline-olive:hover {
+  background-color: var(--olive);
+  color: #000;
+}
+
 .btn.btn-outline-sea {
   background-color: transparent;
   color: var(--sea);
