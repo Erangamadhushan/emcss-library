@@ -182,7 +182,7 @@ body {
   height: auto;
   overflow-x: hidden;
   position: relative;
-  padding: var(--p1);
+  padding: var(--p3);
 }
 
 .container-sm {
@@ -191,6 +191,7 @@ body {
   height: auto;
   overflow-x: hidden;
   position: relative;
+  padding: var(--p2);
 }
 
 .container-md {
@@ -199,6 +200,7 @@ body {
   height: auto;
   overflow-x: hidden;
   position: relative;
+  padding: var(--p2);
 }
 
 .container-lg {
@@ -207,6 +209,7 @@ body {
   height: auto;
   overflow-x: hidden;
   position: relative;
+  padding: var(--p3);
 }
 
 .container-xl {
@@ -215,6 +218,7 @@ body {
   height: auto;
   overflow-x: hidden;
   position: relative;
+  padding: var(--p4);
 }
 
 .full-container {
@@ -223,6 +227,7 @@ body {
   height: auto;
   overflow-x: hidden;
   position: relative;
+  padding: var(--p5);
 }
 
 /*backgroud-colors properties*/
