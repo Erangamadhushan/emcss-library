@@ -1439,6 +1439,7 @@ body {
 }
 
 /*padding property*/
+/*padding property*/
 .p-1 {
   padding: var(--p1);
 }
@@ -1720,6 +1721,11 @@ body {
   margin-inline-end: var(--m5);
 }
 
+.mx-auto {
+  margin: auto;
+}
+
+
 
 .min-h-10 {
   min-height: 10vh;
@@ -1838,6 +1844,7 @@ body {
   max-width: 450px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: var(--p3);
+  margin: auto;
   transition: all 0.2s;
   position: relative;
 }
@@ -2735,7 +2742,6 @@ background-color:var(--alice) .alert.alert-alice::before {
 .flex.gap-5 {
   gap: 1.25em;
 }
-
 .tuple {
   display: flex;
   position: relative;
