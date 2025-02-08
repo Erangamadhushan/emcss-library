@@ -20,7 +20,6 @@ To use the EMCSS library, you can either clone the repository or download the li
 
 > ## Features
 
-[List the main features and components your CSS library provides. For example:]
 - Responsive grid system
 - Pre-styled components
 - Utility classes
