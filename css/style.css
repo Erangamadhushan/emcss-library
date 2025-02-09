@@ -2899,20 +2899,17 @@ background-color:var(--alice) .alert.alert-alice::before {
 .tuple.justify-around {
   justify-content: space-around;
 }
-.tuple.align-center {
+.tuple.items-center {
   align-items: center;
 }
-.tuple.align-end {
+.tuple.items-end {
   align-items: end;
 }
-.tuple.align-start {
+.tuple.items-start {
   align-items: start;
 }
-.tuple.align-stretch {
+.tuple.items-stretch {
   align-items: stretch;
-}
-.tuple.align-content-center {
-  align-content: center;
 }
 .tuple.align-content-baseline {
   align-content: baseline;
