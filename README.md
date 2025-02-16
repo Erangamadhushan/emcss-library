@@ -1,3 +1,4 @@
+# V1.0.5 Now Available !!!
 > # EMCSS Library
 
 ## **A customized CSS library providing reusable styles and components for web development projects.**
@@ -9,13 +10,13 @@ To use the EMCSS library, you can either clone the repository or download the li
 
 **For StyleSheet**
 ```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Erangamadhushan/emcss-library@1.0.3/css/style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Erangamadhushan/emcss-library@1.0.5/css/style.css">
 ```
 
 **For Components**
 ```
-<script src="https://cdn.jsdelivr.net/gh/Erangamadhushan/emcss-library@1.0.3/js/jquery.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/Erangamadhushan/emcss-library@1.0.3/js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/Erangamadhushan/emcss-library@1.0.5/js/jquery.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/Erangamadhushan/emcss-library@1.0.5/js/script.js"></script>
 ```
 
 > ## Features
