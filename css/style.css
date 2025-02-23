@@ -56,12 +56,12 @@
   /*container width*/
   --in:90%; --out:100%;
   /*padding values*/
-  --p1:.3em; --p2:.6em; --p3:0.8em; --p4:1.25em; --p5:1.5em;
+  --p1:.4em; --p2:.8em; --p3:1em; --p4:1.25em; --p5:1.75em;
   /*font-weight and display-text */
   --display-1:5em; --display-2:4.5em; --display-3:4em; --display-4:3.5em; --display-5:3em;
   --display-6:2.5em;
   /*margin values*/
-  --m1:.3em; --m2:.6em; --m3:.8em; --m4:1.25em; --m5:1.5em;
+  --m1:.4em; --m2:.8em; --m3:1em; --m4:1.25em; --m5:1.75em;
   /*button font size*/
   --s1:1em; --s2:1.05em; --s3:1.15em; --s4:1.25em; --s5:1.5em;
   /*heading font size*/
@@ -69,7 +69,7 @@
   /*cell values */
   --cell1:8.33%; --cell2:16.67%; --cell3:25%; --cell4:33.33%; --cell5:41.67%; --cell6:50%; --cell7:58.33%; --cell8:66.67%; --cell9:75%; --cell10:83.33%; --cell11:91.67%; --cell12:100%;
 }
-body { font-family: "Poppins", sans-serif; width: 100%; max-width: 100%; min-height: 100vh; }
+body { font-family: "Poppins", sans-serif; width: 100%; max-width: 100%; min-height: 100vh; position:relative;}
 .container { width: var(--in); margin: auto; height: auto; overflow-x: hidden; position: relative; padding: var(--p3); }
 .container-sm { width: var(--in); margin: auto; height: auto; overflow-x: hidden; position: relative; padding: var(--p2); }
 .container-md { width: var(--in); margin: auto; height: auto; overflow-x: hidden; position: relative; padding: var(--p2); }
@@ -1512,6 +1512,9 @@ background-color:var(--alice) .alert.alert-alice::before {
   font-size: 2em;
 }
 
+h1, h2, h3, h4, h5, h6, p, a, span, div, li, ul, ol, table, td, tr, th, thead, tbody, tfoot, form, button, input, textarea, select, option, fieldset, legend, pre, code, blockquote, abbr, address, article, aside, footer, header, nav, section, summary, figure, figcaption, hr, mark, small, strong, sub, sup, time, var {
+  position: relative;
+}
 
 @media (min-width: 576px) and (max-width: 767px) {
   .tuple .col-sm-2 {
