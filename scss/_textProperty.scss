@@ -1,39 +1,74 @@
-.text-center {
-    text-align:center;
-}
 .text-left {
-    text-align:left;
-}
-.text-right {
-    text-align:right;
-}
-.text-justify {
-    text-align:justify;
-}
-.text-bold {
-    font-weight:bold;
+  text-align: left !important;
 }
 
-.text-italic {
-    font-style:italic;
+.text-center {
+  text-align: center !important;
 }
-.text-normal {
-    font-weight:normal;
+
+.text-right {
+  text-align: right !important;
 }
-//======================================================
-.text-capitalize {
-    text-transform:capitalize;
+
+.text-justify {
+  text-align: justify !important;
 }
+
+// Text color utilities
+.text-white {
+  color: #ffffff !important;
+}
+
+.text-black {
+  color: #000000 !important;
+}
+
+.text-gray {
+  color: #6b7280 !important;
+}
+
+.text-primary {
+  color: #3b82f6 !important;
+}
+
+.text-success {
+  color: #10b981 !important;
+}
+
+.text-warning {
+  color: #f59e0b !important;
+}
+
+.text-danger {
+  color: #ef4444 !important;
+}
+
+// Text transform utilities
 .text-uppercase {
-    text-transform:uppercase;
+  text-transform: uppercase !important;
 }
+
 .text-lowercase {
-    text-transform:lowercase;
+  text-transform: lowercase !important;
+}
+
+.text-capitalize {
+  text-transform: capitalize !important;
+}
+
+.text-bold {
+  font-weight: bold !important;
+}
+.text-italic {
+  font-style: italic !important;
 }
 .text-underline {
-    text-decoration:underline;
+  text-decoration: underline !important;
 }
-//======================================================
+.text-line-through {
+  text-decoration: line-through !important;
+}
+//====================================================
 
 .text-alice {
     color:var(--alice);
