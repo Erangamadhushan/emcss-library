@@ -1,0 +1,276 @@
+@import './base';
+$table-border-color: #e2e8f0 !default;
+$table-header-bg: #f8fafc !default;
+$table-row-hover-bg: #f1f5f9 !default;
+$table-border-width: 1px !default;
+
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  background-color: transparent;
+  
+  // Default cell styling
+  th, td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: $table-border-width solid $table-border-color;
+  }
+  
+  thead th {
+    vertical-align: bottom;
+    border-bottom: (2 * $table-border-width) solid $table-border-color;
+    background-color: $table-header-bg;
+  }
+  // Collapse borders
+    &.table-collapse {
+        border-collapse: collapse;
+    }
+
+    &.table-separate {
+        border-collapse: separate;
+        border-spacing: 0;
+    }
+
+    // Bordered tables
+    &.table-bordered {
+        border: $table-border-width solid $table-border-color;
+    
+    th, td {
+        border: $table-border-width solid $table-border-color;
+    }
+    }
+
+    // Borderless tables
+    &.table-borderless {
+    th, td, thead th {
+        border: 0;
+    }
+    }
+
+    // Striped tables
+    &.table-striped {
+    tbody tr:nth-of-type(odd) {
+        background-color: rgba(0, 0, 0, 0.05);
+    }
+    }
+
+    // Row hover effect
+    &.table-hover {
+    tbody tr:hover {
+        background-color: $table-row-hover-bg;
+    }
+    }
+
+    // Small tables
+    &.table-sm {
+    th, td {
+        padding: 0.3rem;
+    }
+    }
+
+    // Responsive tables
+    &.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    //-webkit-overflow-scrolling: touch;
+    }
+
+    // Table layout
+    &.table-fixed {
+    table-layout: fixed;
+    }
+
+    &.table-auto {
+    table-layout: auto;
+    }
+
+    
+}
+// Table Coloring
+.table-alice {
+    color: var(--alice) !important;
+}
+.table-alice-25 {
+    color: var(--alice-25) !important;
+}
+.table-alice-50 {
+    color: var(--alice-50) !important;
+}
+.table-alice-75 {
+    color: var(--alice-75) !important;
+}
+// ----------------------------------------------
+.table-lagoon {
+    background-color: var(--lagoon) !important;
+}
+.table-lagoon-25 {
+    background-color: var(--lagoon-25) !important;
+}
+.table-lagoon-50 {
+    background-color: var(--lagoon-50) !important;
+}
+.table-lagoon-75 {
+    background-color: var(--lagoon-75) !important;
+}// ---------------------------------------------
+.table-cayman {
+    background-color: var(--cayman) !important;
+}
+.table-cayman-25 {
+    background-color: var(--cayman-25) !important;
+}
+.table-cayman-50 {
+    background-color: var(--cayman-50) !important;
+}
+.table-cayman-75 {
+    background-color: var(--cayman-75) !important;
+}
+// ----------------------------------------------
+.table-dark {
+    background-color: var(--dark) !important;
+}
+.table-dark-25 {
+    background-color: var(--dark-25) !important;
+}
+.table-dark-50 {
+    background-color: var(--dark-50) !important;
+}
+.table-dark-75 {
+    background-color: var(--dark-75) !important;
+}
+// ----------------------------------------------
+.table-maroon {
+    background-color: var(--maroon) !important;
+}
+.table-maroon-25 {
+    background-color: var(--maroon-25) !important;
+}
+.table-maroon-50 {
+    background-color: var(--maroon-50) !important;
+}
+.table-maroon-75 {
+    background-color: var(--maroon-75) !important;
+}
+// ----------------------------------------------
+.table-mint {
+    background-color: var(--mint) !important;
+}
+.table-mint-25 {
+    background-color: var(--mint-25) !important;
+}
+.table-mint-50 {
+    background-color: var(--mint-50) !important;
+}
+.table-mint-75 {
+    background-color: var(--mint-75) !important;
+}
+// ----------------------------------------------
+.table-neo {
+    background-color: var(--neo) !important;
+}
+.table-neo-25 {
+    background-color: var(--neo-25) !important;
+}
+.table-neo-50 {
+    background-color: var(--neo-50) !important;
+}
+.table-neo-75 {
+    background-color: var(--neo-75) !important;
+}
+// ----------------------------------------------
+.table-neon {
+    background-color: var(--neon) !important;
+}
+.table-neon-25 {
+    background-color: var(--neon-25) !important;
+}
+.table-neon-50 {
+    background-color: var(--neon-50) !important;
+}
+.table-neon-75 {
+    background-color: var(--neon-75) !important;
+}
+// ----------------------------------------------
+.table-orange {
+    background-color: var(--orange) !important;
+}
+.table-orange-25 {
+    background-color: var(--orange-25) !important;
+}
+.table-orange-50 {
+    background-color: var(--orange-50) !important;
+}
+.table-orange-75 {
+    background-color: var(--orange-75) !important;
+}
+// ----------------------------------------------
+.table-olive {
+    background-color: var(--olive) !important;
+}
+.table-olive-25 {
+    background-color: var(--olive-25) !important;
+}
+.table-olive-50 {
+    background-color: var(--olive-50) !important;
+}
+.table-olive-75 {
+    background-color: var(--olive-75) !important;
+}
+// ----------------------------------------------
+.table-lime {
+    background-color: var(--lime) !important;
+}
+.table-lime-25 {
+    background-color: var(--lime-25) !important;
+}
+
+.table-lime-50 {
+    background-color: var(--lime-50) !important;
+}
+.table-lime-75 {
+    background-color: var(--lime-75) !important;
+}
+// ----------------------------------------------
+
+.table-sea {
+    background-color: var(--sea) !important;
+}
+
+.table-sea-25 {
+    background-color: var(--sea-25) !important;
+}
+.table-sea-50 {
+    background-color: var(--sea-50) !important;
+}
+.table-sea-75 {
+    background-color: var(--sea-75) !important;
+}
+// ----------------------------------------------
+.table-gray {
+    background-color: var(--gray) !important;
+}
+.table-gray-25 {
+    background-color: var(--gray-25) !important;
+}
+.table-gray-50 {
+    background-color: var(--gray-50) !important;
+}
+.table-gray-75 {
+    background-color: var(--gray-75) !important;
+}
+// ----------------------------------------------
+.table-purly {
+    background-color: var(--purly) !important;
+}
+.table-purly-25 {
+    background-color: var(--purly-25) !important;
+}
+.table-purly-50 {
+    background-color: var(--purly-50) !important;
+}
+.table-purly-75 {
+    background-color: var(--purly-75) !important;
+}
+// ----------------------------------------------
+
+

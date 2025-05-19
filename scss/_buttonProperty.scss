@@ -1,19 +1,11 @@
 .btn {
-    padding: 10px 15px;
-    border: 1px solid #000;
     background-color: #fff;
     color: #000;
-    min-width:150px;
-    border-radius:.5em;
     font-size: 1em;
     cursor: pointer;
     transition: all 0.3s;
-    &:hover {
-        background-color: #000;
-        color: #fff;
-    }
     &.btn-alice {
-        background-color:var(--alice);
+        background-color:var(--alice) !important;
         color: #fff;
         border-color: var(--alice);
         &:hover {
@@ -22,7 +14,7 @@
         }
     }&
     &.btn-lagoon {
-        background-color: var(--lagoon);
+        background-color: var(--lagoon) !important;
         color: #fff;
         border-color: var(--lagoon);
         &:hover {
@@ -31,7 +23,7 @@
         }
     }
     &.btn-cayman {
-        background-color: var(--cayman);
+        background-color: var(--cayman) !important;
         color: #fff;
         border-color: var(--cayman);
         &:hover {
@@ -40,7 +32,7 @@
         }
     }
     &.btn-maroon {
-        background-color: var(--maroon);
+        background-color: var(--maroon) !important;
         color: #fff;
         border-color: var(--maroon);
         &:hover {
@@ -50,7 +42,7 @@
     }
     // background-color: #ffc107(warning);
     &.btn-dark {
-        background-color: var(--dark);
+        background-color: var(--dark) !important;
         color: #fff;
         border-color: var(--dark);
         &:hover {
@@ -60,7 +52,7 @@
     }
     //#17a2b8(info);
     &.btn-mint {
-        background-color: var(--mint);
+        background-color: var(--mint) !important;
         color: #fff;
         border-color: var(--mint);
         &:hover {
@@ -70,7 +62,7 @@
     }
     //#f8f9fa(light);
     &.btn-light {
-        background-color: #f8f9fa;
+        background-color: #f8f9fa !important;
         color: #000;
         border-color: #f8f9fa;
         &:hover {
@@ -82,7 +74,7 @@
     //#343a40(dark);
     
     &.btn-neo {
-        background-color: var(--neo);
+        background-color: var(--neo) !important;
         color: #000;
         border-color: var(--neo);
         &:hover {
@@ -91,7 +83,7 @@
         }
     }
     &.btn-neon {
-        background-color: var(--neon);
+        background-color: var(--neon) !important;
         color: #000;
         border-color: var(--neon);
         &:hover {
@@ -100,7 +92,7 @@
         }
     }
     &.btn-orange {
-        background-color: var(--orange);
+        background-color: var(--orange) !important;
         color: #fff;
         border-color: var(--orange);
         &:hover {
@@ -109,7 +101,7 @@
         }
     }
     &.btn-lime {
-        background-color: var(--lime);
+        background-color: var(--lime) !important;
         color:#fff;
         border-color: var(--lime);
         &:hover {
@@ -118,7 +110,7 @@
         }
     }
     &.btn-olive {
-        background-color: var(--olive);
+        background-color: var(--olive) !important;
         color:#fff;
         border-color:var(--olive);
         &:hover {

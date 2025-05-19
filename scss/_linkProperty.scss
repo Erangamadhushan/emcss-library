@@ -1,5 +1,5 @@
 @mixin link-Color($color) {
-    color:$color;
+    color:$color !important;
     text-decoration:none;
     &:hover {
         text-decoration:underline;

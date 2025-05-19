@@ -1,10 +1,11 @@
+@import './base';
 @mixin backgroundColor($color) {
-    background-color:$color;
+    background-color:$color !important;
 }
 
 @mixin textBackground($bgcolor, $textcolor) {
-    background-color:$bgcolor;
-    color:$textcolor;
+    background-color:$bgcolor !important;
+    color:$textcolor !important;
 }
 
 // /*background-theme */
