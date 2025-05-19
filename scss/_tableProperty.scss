@@ -23,17 +23,17 @@ $table-border-width: 1px !default;
   }
   // Collapse borders
     &.table-collapse {
-    border-collapse: collapse;
+        border-collapse: collapse;
     }
 
     &.table-separate {
-    border-collapse: separate;
-    border-spacing: 0;
+        border-collapse: separate;
+        border-spacing: 0;
     }
 
     // Bordered tables
     &.table-bordered {
-    border: $table-border-width solid $table-border-color;
+        border: $table-border-width solid $table-border-color;
     
     th, td {
         border: $table-border-width solid $table-border-color;
