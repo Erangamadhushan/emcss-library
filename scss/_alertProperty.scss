@@ -1,0 +1,151 @@
+@mixin alertHeader($color, $lineColor) {
+    background-image:linear-gradient(to right, $color 50%, $lineColor 100%);
+}
+.alert {
+    padding:var(--p2);
+    position:relative;
+    width:100%;
+    border-radius:.4em;
+    overflow:hidden;
+    box-shadow:.1rem .1rem 1.5rem rgba(0,0,0,0.3);
+    
+    &.alert-alice {
+        background-color:var(--alice)
+        &::before {
+            margin-bottom:5px;
+            width:100%;
+            content:'';
+            min-height:1rem;
+            position:absolute;
+            top:0;
+            left:0;
+            @include alertHeader(var(--alice),var(--alice-active));
+        }
+    }
+    &.alert-lagoon {
+        background-color:var(--lagoon-25);
+
+        &::before {
+            margin-bottom:5px;
+            width:100%;
+            content:'';
+            min-height:1rem;
+            position:absolute;
+            top:0;
+            left:0;
+            @include alertHeader(var(--lagoon),var(--lagoon-active));
+        }
+    }
+    &.alert-cayman {
+        background-color:var(--cayman-25);
+
+        &::before {
+            margin-bottom:5px;
+            width:100%;
+            content:'';
+            min-height:1rem;
+            position:absolute;
+            top:0;
+            left:0;
+            @include alertHeader(var(--cayman),var(--cayman-active));
+        }
+    }
+    &.alert-dark {
+        background-color:var(--dark-25);
+
+        &::before {
+            margin-bottom:5px;
+            width:100%;
+            content:'';
+            min-height:1rem;
+            position:absolute;
+            top:0;
+            left:0;
+            @include alertHeader(var(--dark),var(--dark-active));
+        }
+    }
+    &.alert-maroon {
+        background-color:var(--maroon-25);
+
+        &::before {
+            margin-bottom:5px;
+            width:100%;
+            content:'';
+            min-height:1rem;
+            position:absolute;
+            top:0;
+            left:0;
+            @include alertHeader(var(--maroon),var(--maroon-active));
+        }
+    }
+    &.alert-mint {
+        background-color:var(--mint-25);
+
+        &::before {
+            margin-bottom:5px;
+            width:100%;
+            content:'';
+            min-height:1rem;
+            position:absolute;
+            top:0;
+            left:0;
+            @include alertHeader(var(--mint),var(--mint-active));
+        }
+    }
+    &.alert-neo {
+        background-color:var(--neo-25);
+
+        &::before {
+            margin-bottom:5px;
+            width:100%;
+            content:'';
+            min-height:1rem;
+            position:absolute;
+            top:0;
+            left:0;
+            @include alertHeader(var(--neo),var(--neo-active));
+        }
+    }
+    &.alert-sea {
+        background-color:var(--sea-25);
+
+        &::before {
+            margin-bottom:5px;
+            width:100%;
+            content:'';
+            min-height:1rem;
+            position:absolute;
+            top:0;
+            left:0;
+            @include alertHeader(var(--sea),var(--sea-active));
+        }
+    }
+    &.alert-gray {
+        background-color:var(--gray-25);
+
+        &::before {
+            margin-bottom:5px;
+            width:100%;
+            content:'';
+            min-height:1rem;
+            position:absolute;
+            top:0;
+            left:0;
+            @include alertHeader(var(--gray),var(--gray-active));
+        }
+    }
+    &.alert-purly {
+        background-color:var(--purly-25);
+
+        &::before {
+            margin-bottom:5px;
+            width:100%;
+            content:'';
+            min-height:1rem;
+            position:absolute;
+            top:0;
+            left:0;
+            @include alertHeader(var(--purly),var(--purly-active));
+        }
+    }
+}

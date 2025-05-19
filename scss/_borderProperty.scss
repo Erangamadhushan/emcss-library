@@ -1,0 +1,108 @@
+/* border-radius*/
+.rounded {
+    border-radius: 0.75em;;
+    overflow:hidden;
+    &.rounded-top {
+        border-radius:12px 12px 0 0;
+    }
+    &.rounded-end {
+        border-radius:0 12px 12px 0;
+    }
+    &.rounded-start {
+        border-radius:12px 0 0 12px
+    }
+    &.rounded-circle {
+        border-radius:50%;
+    } 
+    &.rounded-pill {
+        border-radius:35%;
+    }
+    &.rounded-1 {
+        border-radius:.2em;
+    } 
+    &.rounded-2 {
+        border-radius:.4em;
+    } 
+    &.rounded-3 {
+        border-radius:.6em;
+    } 
+    &.rounded-4 {
+        border-radius:.8em;
+    } 
+    &.rounded-5 {
+        border-radius:1em;
+    } 
+    &.rounded-full {
+        border-radius:1.25em;
+    }
+} 
+.border {
+    border-width: 1px;
+    border-style: solid;
+    &.border-none {
+        border:none;
+    }
+
+    &.border-1 {
+        border-width:2px;
+    }
+    &.border-2 {
+        border-width:4px;
+        }
+    &.border-3 {
+        border-width:6px;
+    }
+    &.border-4 {
+        border-width:8px;
+    }
+    &.border-5 {
+        border-width:10px;
+    }
+    &.border-alice {
+        border-color:var(--alice);
+    }
+    &.border-lagoon {
+        border-color:var(--lagoon);
+    }
+    &.border-cayman {
+        border-color:var(--cayman);
+    }
+    &.border-dark {
+        border-color:var(--dark);
+    }
+    &.border-maroon {
+        border-color:var(--maroon);
+    }
+    &.border-mint {
+        border-color:var(--mint);
+    }
+    &.border-neo {
+        border-color:var(--neo);
+    }
+    &.border-neon {
+        border-color:var(--neon);
+    }
+    &.border-orange {
+        border-color:var(--orange);
+    }
+    &.border-lime {
+        border-color:var(--lime);
+    }
+    &.border-olive {
+        border-color:var(--olive);
+    }
+    &.border-sea {
+        border-color:var(--sea);
+    }
+    &.border-gray {
+        border-color:var(--gray);
+    }
+    &.border-purly {
+        border-color:var(--purly);
+    }
+}
+.outline-none {
+    outline:none;
+}
+  
+

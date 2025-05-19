@@ -1,0 +1,120 @@
+.navbar {
+    display:grid;
+    width:100vw;
+    max-width:100%;
+    &.navbar-dark {
+        background-color:var(--dark);
+    }
+    &.navbar-alice {
+        background-color:var(--alice);
+    }
+    &.navbar-lagoon {
+        background-color:var(--lagoon);
+    }
+    &.navbar-cayman {
+        background-color:var(--cayman);
+    }
+    &.navbar-gray {
+        background-color:var(--gray);
+    }
+    &.navbar-maroon {
+        background-color:var(--maroon);
+    }
+    &.navbar-mint {
+        background-color:var(--mint);
+    }
+    &.navbar-neo {
+        background-color:var(--neo);
+    }
+    &.navbar-neon {
+        background-color:var(--neon);
+    }
+    &.navbar-orange {
+        background-color:var(--orange);
+    }
+    &.navbar-lime {
+        background-color:var(--lime);
+    }
+    &.navbar-olive {
+        background-color:var(--olive);
+    }
+    &.navbar-sea {
+        background-color:var(--sea);
+    }
+    &.navbar-purly {
+        background-color:var(--purly);
+    }
+    .navbar-expand {
+        position:relative;
+        padding:var(--p3);
+        display:flex;
+        overflow:hidden;
+        align-items:baseline;
+    
+        .navbar-logo {
+            position:relative;
+        }
+        .navbar-content {
+            position:relative;
+            width:70%;
+            .navbar-content-group {
+                display:flex;
+                position:relative;
+                list-style-type:none;
+                justify-content:center;
+                gap:var(--p3);
+                .navbar-item {
+                    position:relative;
+                    .navbar-link {
+                        text-decoration:none;
+                    }
+                }
+                .navbar-input {
+                    position:relative;
+                    padding:var(--p3);
+                    outline:none;
+                    width:50%;
+                    //border-radius:4px;
+                    border:none;
+                    &::placeholder {
+                        content:'Ctrl + K'
+                    }
+                }
+            }
+            
+        }
+        .navbar-toggler {
+            position:absolute;
+            top:0;
+            right:0;
+            display:flex;
+            justify-content:center;
+            width:10%;
+            
+            display:none;
+            .navbar-toggler-icon {
+                font-size:2em;
+                color:#fff;
+                background:transparent;
+                border:none;
+                cursor:pointer;
+            }
+        }
+    
+    }
+
+    .navbar-response {
+        display:none;
+        padding:var(--p3);
+        list-style-type: none;
+        .navbar-content-group {
+            list-style-type:none;
+            .navbar-item {
+                margin-bottom:.8em;
+                .navbar-link {
+                    text-decoration:none;
+                }
+            }
+        }
+    }
+}

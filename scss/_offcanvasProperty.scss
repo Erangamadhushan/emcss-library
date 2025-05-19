@@ -1,0 +1,109 @@
+@mixin offcanvasBackground($backgroundColor) {
+    background:$backgroundColor;
+}
+.offcanvas {
+    width:min(430px, 100%);
+    position:absolute;
+    min-height:100vh;
+    top:0;
+    bottom:0;
+    left:0;
+    z-index:10;
+    
+    // background-color:#222;
+    transform:translateX(-100%);
+    transition:all .3s;
+    &.active {
+        transform:translateX(0);
+        transition:all .3s;
+    }
+    .offcanvas-close::before {
+        content:'\26CC';
+        position:absolute;
+        top:1.25em;
+        font-size:1.5em;
+        right:1.25em;
+        color:#fff;
+        cursor:pointer;
+        z-index:100;
+    }
+    .offcanvas-body {
+        width:100%;
+        height:100%;
+        position: relative;
+        display: grid;
+        justify-items:center;
+        //top:15%;
+        .offcanvas-list {
+            list-style-type:none;
+            gap:20px;
+            padding-block-start:75px;
+            .offcanvas-item {
+                gap:30px;
+                padding-block:var(--p2);
+                
+                .offcanvas-link {
+                    text-decoration:none;
+                    font-size:1.2em;
+                    padding-block:var(--p2);
+                }
+            }
+        }
+    }
+
+
+    /* explorer color offcanvas */
+    &.offcanvas-dark {
+        @include offcanvasBackground(var(--dark))
+    }
+    &.offcanvas-alice {
+        @include offcanvasBackground(var(--alice));
+    }
+    &.offcanvas-lagoon {
+        @include offcanvasBackground(var(--lagoon));
+    }
+    &.offcanvas-cayman {
+        @include offcanvasBackground(var(--cayman));
+    }
+    &.offcanvas-maroon {
+        @include offcanvasBackground(var(--maroon));
+    }
+    &.offcanvas-mint {
+        @include offcanvasBackground(var(--mint));
+    }
+    &.offcanvas-neo {
+        @include offcanvasBackground(var(--neo));
+    }
+    &.offcanvas-neon {
+        @include offcanvasBackground(var(--neon));
+    }
+    &.offcanvas-orange {
+        @include offcanvasBackground(var(--orange));
+    }
+    &.offcanvas-lime {
+        @include offcanvasBackground(var(--lime));
+    }
+    &.offcanvas-olive {
+        @include offcanvasBackground(var(--olive));
+    }
+    &.offcanvas-sea {
+        @include offcanvasBackground(var(--sea));
+    }
+    &.offcanvas-gray {
+        @include offcanvasBackground(var(--gray));
+    }
+    &.offcanvas-purly {
+        @include offcanvasBackground(var(--purly));
+    }
+}
+.offcanvas-toggler {
+    background:transparent;
+    border:none;
+    &::before {
+        content:'\2630';
+        background:transparent;
+        color:#fff;
+        cursor:pointer;
+        font-size:2em;
+    }
+}

@@ -1,0 +1,403 @@
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .tuple {
+        .col-sm-2{
+            flex-basis:calc(100%/6);
+        }
+        .col-sm-3 {
+            flex-basis: calc(100%/4);
+        }
+        .col-sm-4 {
+            flex-basis:calc(100%/3);
+        }
+        .col-sm-6 {
+            flex-basis:calc(100%/2);
+        }
+        .col-sm-8 {
+            flex-basis:calc(100%/1.3334);
+        }
+        .col-sm-9 {
+            flex-basis:calc(100%/1);
+        }
+        [class*="col-"] {
+        padding:var(--p2);
+    }
+    }
+    .grid {
+        &[class*="md:col-1"], &[class*="md:col-2"],&[class*="md:col-3"], &[class*="md:col-4"],&[class*="md:col-5"],&[class*="md-col-6"] {
+            grid-template-columns:auto;
+        }
+    
+        //=================================================================
+    
+        &[class*="lg:col-1"], &[class*="lg:col-2"],&[class*="lg:col-3"], &[class*="lg:col-4"],&[class*="lg:col-5"],&[class*="lg-col-6"] {
+            grid-template-columns:auto;
+        }
+    
+        //===============================================================
+        &[class*="xl:col-1"], &[class*="xl:col-2"],&[class*="xl:col-3"], &[class*="xl:col-4"],&[class*="xl:col-5"],&[class*="xl-col-6"] {
+            grid-template-columns:auto;
+        }
+        
+        &[class*="sm:col-1"] {
+            grid-template-columns: auto;
+        }
+        &[class*="sm:col-2"] {
+            grid-template-columns: auto auto;
+        }
+        &[class*="sm:col-3"] {
+            grid-template-columns: auto auto auto;
+        }
+        &[class*="sm:col-4"] {
+            grid-template-columns: auto auto auto auto;
+        }
+        &[class*="sm:col-5"] {
+            grid-template-columns: auto auto auto auto auto;
+        }
+        &[class*="sm:col-6"] {
+            grid-template-columns: auto auto auto auto auto auto;
+        }
+        //==================================================================
+    }
+    
+    
+}
+@media (max-width: 768px) {
+    .navbar {
+        .navbar-content {
+            display:none;
+        }
+    }
+    .navbar {
+        .navbar-expand {
+            .navbar-toggler {
+                display:block;
+            }
+        }
+    }
+}
+
+@media (min-width:768px) and (max-width: 991px) {
+    .tuple {
+        .col-md-2 {
+            flex-basis:calc(100%/6);
+        }
+        .col-md-3 {
+            flex-basis:calc(100%/4);
+        }
+        .col-md-4 {
+            flex-basis:calc(100%/3);
+        }
+        .col-md-6 {
+            flex-basis:calc(100%/2);
+        }
+        .col-md-8 {
+            flex-basis:calc(100%/1.5);
+        }
+        .col-md-9 {
+            flex-basis:calc(100%/1.3334);
+        }
+        [class*="col-"] {
+        padding:var(--p2);
+    }
+    }
+
+    .grid {
+        //===============================================================
+        &[class*="xl:col-1"], &[class*="xl:col-2"],&[class*="xl:col-3"], &[class*="xl:col-4"],&[class*="xl:col-5"],&[class*="xl-col-6"] {
+            grid-template-columns:auto;
+        }
+
+        &[class*="sm:col-1"] {
+            grid-template-columns: auto;
+        }
+        &[class*="sm:col-2"] {
+            grid-template-columns: auto auto;
+        }
+        &[class*="sm:col-3"] {
+            grid-template-columns: auto auto auto;
+        }
+        &[class*="sm:col-4"] {
+            grid-template-columns: auto auto auto auto;
+        }
+        &[class*="sm:col-5"] {
+            grid-template-columns: auto auto auto auto auto;
+        }
+        &[class*="sm:col-6"] {
+            grid-template-columns: auto auto auto auto auto auto;
+        }
+        //==================================================================
+
+        &[class*="md:col-1"] {
+            grid-template-columns: auto;
+        }
+        &[class*="md:col-2"] {
+            grid-template-columns: auto auto;
+        }
+        &[class*="md:col-3"] {
+            grid-template-columns: auto auto auto;
+        }
+        &[class*="md:col-4"] {
+            grid-template-columns: auto auto auto auto;
+        }
+        &[class*="md:col-5"] {
+            grid-template-columns: auto auto auto auto auto;
+        }
+        &[class*="md:col-6"] {
+            grid-template-columns: auto auto auto auto auto auto;
+        }
+        
+    
+        
+    }
+    
+    
+}
+@media (min-width:992px) and (max-width:1199px) {
+    .tuple {
+        .col-lg-2 {
+            flex-basis:calc(100%/6);
+        }
+        .col-lg-3 {
+            flex-basis:calc(100%/4);
+        }
+        .col-lg-4 {
+            flex-basis:calc(100%/3);
+        }
+        .col-lg-6 {
+            flex-basis:calc(100%/2);
+        }
+        .col-lg-8 {
+            flex-basis:calc(100%/1.5);
+        }
+        .col-lg-9 {
+            flex-basis:calc(100%/1.3334);
+        }
+        [class*="col-"] {
+        padding:var(--p2);
+    }
+    }
+    .grid {
+        //===============================================================
+        &[class*="xl:col-1"], &[class*="xl:col-2"],&[class*="xl:col-3"], &[class*="xl:col-4"],&[class*="xl:col-5"],&[class*="xl-col-6"] {
+            grid-template-columns:auto;
+        }
+        &[class*="sm:col-1"] {
+            grid-template-columns: auto;
+        }
+        &[class*="sm:col-2"] {
+            grid-template-columns: auto auto;
+        }
+        &[class*="sm:col-3"] {
+            grid-template-columns: auto auto auto;
+        }
+        &[class*="sm:col-4"] {
+            grid-template-columns: auto auto auto auto;
+        }
+        &[class*="sm:col-5"] {
+            grid-template-columns: auto auto auto auto auto;
+        }
+        &[class*="sm:col-6"] {
+            grid-template-columns: auto auto auto auto auto auto;
+        }
+        //==================================================================
+
+        &[class*="md:col-1"] {
+            grid-template-columns: auto;
+        }
+        &[class*="md:col-2"] {
+            grid-template-columns: auto auto;
+        }
+        &[class*="md:col-3"] {
+            grid-template-columns: auto auto auto;
+        }
+        &[class*="md:col-4"] {
+            grid-template-columns: auto auto auto auto;
+        }
+        &[class*="md:col-5"] {
+            grid-template-columns: auto auto auto auto auto;
+        }
+        &[class*="md:col-6"] {
+            grid-template-columns: auto auto auto auto auto auto;
+        }
+
+        &[class*="lg:col-1"] {
+            grid-template-columns: auto;
+        }
+        &[class*="lg:col-2"] {
+            grid-template-columns: auto auto;
+        }
+        &[class*="lg:col-3"] {
+            grid-template-columns: auto auto auto;
+        }
+        &[class*="lg:col-4"] {
+            grid-template-columns: auto auto auto auto;
+        }
+        &[class*="lg:col-5"] {
+            grid-template-columns: auto auto auto auto auto;
+        }
+        &[class*="lg:col-6"] {
+            grid-template-columns: auto auto auto auto auto auto;
+        }
+        //=================================================================
+        
+    }
+   
+}
+
+@media (min-width:1200px) and (max-width:1679px) {
+    .tuple {
+        .col-xl-2 {
+            flex-basis:calc(100%/6);
+        }
+        .col-xl-3 {
+            flex-basis:calc(100%/4);
+        }
+        .col-xl-4 {
+            flex-basis:calc(100%/3);
+        }
+        .col-xl-6 {
+            flex-basis:calc(100%/2);
+        }
+        .col-xl-8 {
+            flex-basis:calc(100%/1.5);
+        }
+        .col-xl-9 {
+            flex-basis:calc(100%/1.3334);
+        }
+        [class*="col-"] {
+        padding:var(--p2);
+    }
+    }
+    .grid {
+        &[class*="sm:col-1"] {
+            grid-template-columns: auto;
+        }
+        &[class*="sm:col-2"] {
+            grid-template-columns: auto auto;
+        }
+        &[class*="sm:col-3"] {
+            grid-template-columns: auto auto auto;
+        }
+        &[class*="sm:col-4"] {
+            grid-template-columns: auto auto auto auto;
+        }
+        &[class*="sm:col-5"] {
+            grid-template-columns: auto auto auto auto auto;
+        }
+        &[class*="sm:col-6"] {
+            grid-template-columns: auto auto auto auto auto auto;
+        }
+        //==================================================================
+        &[class*="md:col-1"] {
+            grid-template-columns: auto;
+        }
+        &[class*="md:col-2"] {
+            grid-template-columns: auto auto;
+        }
+        &[class*="md:col-3"] {
+            grid-template-columns: auto auto auto;
+        }
+        &[class*="md:col-4"] {
+            grid-template-columns: auto auto auto auto;
+        }
+        &[class*="md:col-5"] {
+            grid-template-columns: auto auto auto auto auto;
+        }
+        &[class*="md:col-6"] {
+            grid-template-columns: auto auto auto auto auto auto;
+        }
+        //===================================================================
+
+        &[class*="lg:col-1"] {
+            grid-template-columns: auto;
+        }
+        &[class*="lg:col-2"] {
+            grid-template-columns: auto auto;
+        }
+        &[class*="lg:col-3"] {
+            grid-template-columns: auto auto auto;
+        }
+        &[class*="lg:col-4"] {
+            grid-template-columns: auto auto auto auto;
+        }
+        &[class*="lg:col-5"] {
+            grid-template-columns: auto auto auto auto auto;
+        }
+        &[class*="lg:col-6"] {
+            grid-template-columns: auto auto auto auto auto auto;
+        }
+        //====================================================================
+
+        &[class*="xl:col-1"] {
+            grid-template-columns: auto;
+        }
+        &[class*="xl:col-2"] {
+            grid-template-columns: auto auto;
+        }
+        &[class*="xl:col-3"] {
+            grid-template-columns: auto auto auto;
+        }
+        &[class*="xl:col-4"] {
+            grid-template-columns: auto auto auto auto;
+        }
+        &[class*="xl:col-5"] {
+            grid-template-columns: auto auto auto auto auto;
+        }
+        &[class*="xl:col-6"] {
+            grid-template-columns: auto auto auto auto auto auto;
+        }
+    }
+    
+}
+
+@media (min-width:1680px)  {
+    .col-xxl-2 {
+        flex-basis:calc(100%/6);
+    }
+    .col-xxl-3 {
+        flex-basis:calc(100%/4);
+    }
+    .col-xxl-4 {
+        flex-basis:calc(100%/3);
+    }
+    .col-xxl-6 {
+        flex-basis:calc(100%/2);
+    }
+    .col-xxl-8 {
+        flex-basis:calc(100%/1.5);
+    }
+    .col-xxl-9 {
+        flex-basis:calc(100%/1.3334);
+    }
+    [class*="col-"] {
+        padding:var(--p2);
+    }
+}
+
+@media (max-width:600px) {
+    .container-sm {
+        width:var(--out);
+    }
+}
+@media (max-width:768px) {
+    .container-md {
+        width:var(--out);
+    }
+}
+@media (max-width:900px) {
+    .container {
+        width:var(--out);
+    }
+}
+@media (max-width:992px) {
+    .container-lg {
+        width:var(--out);
+    }
+}
+@media (max-width:1200px) {
+    .container-xl {
+        width:var(--out);
+    }
+}
+

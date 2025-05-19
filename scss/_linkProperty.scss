@@ -1,0 +1,49 @@
+@mixin link-Color($color) {
+    color:$color;
+    text-decoration:none;
+    &:hover {
+        text-decoration:underline;
+    }
+}
+.link-alice {
+    @include link-Color(var(--alice))
+}
+.link-lagoon {
+    @include link-Color(var(--lagoon));
+}
+.link-cayman {
+    @include link-Color(var(--cayman));
+}
+.link-dark {
+    @include link-Color(var(--dark));
+}
+.link-maroon {
+    @include link-Color(var(--maroon));
+}
+.link-mint {
+    @include link-Color(var(--mint));
+}
+.link-neon {
+    @include link-Color(var(--neon));
+}
+.link-orange {
+    @include link-Color(var(--orange));
+}
+.link-lime {
+    @include link-Color(var(--lime));
+}
+.link-olive {
+    @include link-Color(var(--olive));
+}
+.link-neo {
+    @include link-Color(var(--neo));
+}
+.link-sea {
+    @include link-Color(var(--sea));
+}
+.link-gray {
+    @include link-Color(var(--gray));
+}
+.link-purly {
+    @include link-Color(var(--purly));
+}

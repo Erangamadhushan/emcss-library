@@ -1,0 +1,525 @@
+.btn {
+    padding: 10px 15px;
+    border: 1px solid #000;
+    background-color: #fff;
+    color: #000;
+    min-width:150px;
+    border-radius:.5em;
+    font-size: 1em;
+    cursor: pointer;
+    transition: all 0.3s;
+    &:hover {
+        background-color: #000;
+        color: #fff;
+    }
+    &.btn-alice {
+        background-color:var(--alice);
+        color: #fff;
+        border-color: var(--alice);
+        &:hover {
+        background-color: var(--alice-active);
+        border-color: var(--alice-active);
+        }
+    }&
+    &.btn-lagoon {
+        background-color: var(--lagoon);
+        color: #fff;
+        border-color: var(--lagoon);
+        &:hover {
+        background-color:var(--lagoon-active);
+        border-color: var(--lagoon-active);
+        }
+    }
+    &.btn-cayman {
+        background-color: var(--cayman);
+        color: #fff;
+        border-color: var(--cayman);
+        &:hover {
+        background-color: var(--cayman-50);
+        border-color: var(--cayman-active);
+        }
+    }
+    &.btn-maroon {
+        background-color: var(--maroon);
+        color: #fff;
+        border-color: var(--maroon);
+        &:hover {
+        background-color: var(--maroon-active);
+        border-color: var(--maroon-active);
+        }
+    }
+    // background-color: #ffc107(warning);
+    &.btn-dark {
+        background-color: var(--dark);
+        color: #fff;
+        border-color: var(--dark);
+        &:hover {
+        background-color: var(--dark-active);
+        border-color: var(--dark-active);
+        }
+    }
+    //#17a2b8(info);
+    &.btn-mint {
+        background-color: var(--mint);
+        color: #fff;
+        border-color: var(--mint);
+        &:hover {
+        background-color: var(--mint-active);
+        border-color: var(--mint-active);
+        }
+    }
+    //#f8f9fa(light);
+    &.btn-light {
+        background-color: #f8f9fa;
+        color: #000;
+        border-color: #f8f9fa;
+        &:hover {
+        background-color: #e2e6ea;
+        border-color: #dae0e5;
+        }
+    }
+    //#28a745(success);
+    //#343a40(dark);
+    
+    &.btn-neo {
+        background-color: var(--neo);
+        color: #000;
+        border-color: var(--neo);
+        &:hover {
+        background-color: var(--neo-active);
+        border-color: var(--neo-active);
+        }
+    }
+    &.btn-neon {
+        background-color: var(--neon);
+        color: #000;
+        border-color: var(--neon);
+        &:hover {
+            background-color: var(--neon-active);
+            border-color: var(--neon-active);
+        }
+    }
+    &.btn-orange {
+        background-color: var(--orange);
+        color: #fff;
+        border-color: var(--orange);
+        &:hover {
+            background-color: var(--orange-active);
+            border-color: var(--orange-active);
+        }
+    }
+    &.btn-lime {
+        background-color: var(--lime);
+        color:#fff;
+        border-color: var(--lime);
+        &:hover {
+            background-color: var(--lime-active);
+            border-color: var(--lime-active);
+        }
+    }
+    &.btn-olive {
+        background-color: var(--olive);
+        color:#fff;
+        border-color:var(--olive);
+        &:hover {
+            background-color: var(--olive-active);
+            border-color:var(--olive-active);
+        }
+    }
+    &.btn-sea {
+        background-color: var(--sea);
+        color: #000;
+        border-color: var(--sea);
+        &:hover {
+        background-color: var(--sea-active);
+        border-color: var(--sea-active);
+        }
+    }
+    &.btn-gray {
+        background-color: var(--gray);
+        color: #000;
+        border-color: var(--gray);
+        &:hover {
+        background-color: var(--gray-active);
+        border-color: var(--gray-active);
+        }
+    }
+    &.btn-purly {
+        background-color: var(--purly);
+        color: #000;
+        border-color: var(--purly);
+        &:hover {
+        background-color: var(--purly-active);
+        border-color: var(--purly-active);
+        }
+    }
+
+    //=================================================================
+
+    &.btn-gradient-alice {
+        background-image: linear-gradient(to right, var(--alice) 0%, var(--alice-75)  51%, var(--alice-25)  100%);
+        transition: 0.5s;
+        background-size: 200% auto;
+        border:none;
+        color: #222;            
+        box-shadow: 0.1rem 0.1rem 1.5rem rgba(0,0,0,0.3);
+        display: block;
+        transition: 0.5s;
+        &:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+        }
+    }
+    &.btn-gradient-lagoon {
+        background-image: linear-gradient(to right, var(--lagoon) 0%, var(--lagoon-50)  51%, var(--lagoon-25)  100%);
+        transition: 0.5s;
+        background-size: 200% auto;
+        border:none;
+        color: #fff;            
+        box-shadow: 0.1rem 0.1rem 1.5rem rgba(0,0,0,0.3);
+        display: block;
+        transition: 0.5s;
+        &:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+        }
+    }
+    &.btn-gradient-cayman {
+        background-image: linear-gradient(to right, var(--cayman) 0%, var(--cayman-50) 51%, var(--cayman-25)  100%);
+        transition: 0.5s;
+        background-size: 200% auto;
+        border:none;
+        color: #fff;
+        box-shadow: 0.1rem 0.1rem 1.5rem rgba(0,0,0,0.3);
+        display: block;
+        
+        &:hover {
+            background-position:right center;
+            color:#fff;
+        }
+
+    }
+    &.btn-gradient-dark {
+        background-image: linear-gradient(to right, var(--dark) 0%, var(--dark-50) 51%, var(--dark-25)  100%);
+        transition: 0.5s;
+        background-size: 200% auto;
+        border:none;
+        color: #fff;
+        box-shadow: 0.1rem 0.1rem 1.5rem rgba(0,0,0,0.3);
+        display: block;
+        
+        &:hover {
+            background-position:right center;
+            color:#fff;
+        }
+
+    }
+    &.btn-gradient-maroon {
+        background-image: linear-gradient(to right, var(--maroon) 0%, var(--maroon-50) 51%, var(--maroon-25)  100%);
+        transition: 0.5s;
+        background-size: 200% auto;
+        border:none;
+        color: #fff;
+        box-shadow: 0.1rem 0.1rem 1.5rem rgba(0,0,0,0.3);
+        display: block;
+        
+        &:hover {
+            background-position:right center;
+            color:#fff;
+        }
+
+    }
+    &.btn-gradient-mint {
+        background-image: linear-gradient(to right, var(--mint) 0%, var(--mint-50) 51%, var(--mint-25)  100%);
+        transition: 0.5s;
+        background-size: 200% auto;
+        border:none;
+        color: #fff;
+        box-shadow: 0.1rem 0.1rem 1.5rem rgba(0,0,0,0.3);
+        display: block;
+        
+        &:hover {
+            background-position:right center;
+            color:#fff;
+        }
+
+    }
+    &.btn-gradient-neo {
+        background-image: linear-gradient(to right, var(--neo) 0%, var(--neo-50) 51%, var(--neo-25)  100%);
+        transition: 0.5s;
+        background-size: 200% auto;
+        border:none;
+        color: #fff;
+        box-shadow: 0.1rem 0.1rem 1.5rem rgba(0,0,0,0.3);
+        display: block;
+        
+        &:hover {
+            background-position:right center;
+            color:#fff;
+        }
+
+    }
+    &.btn-gradient-neon {
+        background-image: linear-gradient(to right, var(--neon) 0%, var(--neon-50) 51%, var(--neon-25)  100%);
+        transition: 0.5s;
+        background-size: 200% auto;
+        border:none;
+        color: #fff;
+        box-shadow: 0.1rem 0.1rem 1.5rem rgba(0,0,0,0.3);
+        display: block;
+        
+        &:hover {
+            background-position:right center;
+            color:#fff;
+        }
+
+    }
+    &.btn-gradient-orange {
+        background-image: linear-gradient(to right, var(--orange) 0%, var(--orange-50) 51%, var(--orange-25)  100%);
+        transition: 0.5s;
+        background-size: 200% auto;
+        border:none;
+        color: #fff;
+        box-shadow: 0.1rem 0.1rem 1.5rem rgba(0,0,0,0.3);
+        display: block;
+        
+        &:hover {
+            background-position:right center;
+            color:#fff;
+        }
+
+    }
+    &.btn-gradient-lime {
+        background-image: linear-gradient(to right, var(--lime) 0%, var(--lime-50) 51%, var(--lime-25)  100%);
+        transition: 0.5s;
+        background-size: 200% auto;
+        border:none;
+        color: #fff;
+        box-shadow: 0.1rem 0.1rem 1.5rem rgba(0,0,0,0.3);
+        display: block;
+        
+        &:hover {
+            background-position:right center;
+            color:#fff;
+        }
+
+    }
+    &.btn-gradient-olive {
+        background-image: linear-gradient(to right, var(--olive) 0%, var(--olive-50) 51%, var(--olive-25)  100%);
+        transition: 0.5s;
+        background-size: 200% auto;
+        border:none;
+        color: #fff;
+        box-shadow: 0.1rem 0.1rem 1.5rem rgba(0,0,0,0.3);
+        display: block;
+        
+        &:hover {
+            background-position:right center;
+            color:#fff;
+        }
+
+    }
+    &.btn-gradient-sea {
+        background-image: linear-gradient(to right, var(--sea) 0%, var(--sea-50) 51%, var(--sea-25)  100%);
+        transition: 0.5s;
+        background-size: 200% auto;
+        border:none;
+        color: #fff;
+        box-shadow: 0.1rem 0.1rem 1.5rem rgba(0,0,0,0.3);
+        display: block;
+        
+        
+        &:hover {
+            background-position:right center;
+            color:#fff;
+        }
+
+    }
+    &.btn-gradient-gray {
+        background-image: linear-gradient(to right, var(--gray) 0%, var(--gray-50) 51%, var(--gray-25)  100%);
+        transition: 0.5s;
+        background-size: 200% auto;
+        border:none;
+        color: #fff;
+        box-shadow: 0.1rem 0.1rem 1.5rem rgba(0,0,0,0.3);
+        display: block;
+        
+        &:hover {
+            background-position:right center;
+            color:#fff;
+        }
+
+    }
+    &.btn-gradient-purly {
+        background-image: linear-gradient(to right, var(--purly) 0%, var(--purly-50) 51%, var(--purly-25)  100%);
+        transition: 0.5s;
+        background-size: 200% auto;
+        border:none;
+        color: #fff;
+        box-shadow: 0.1rem 0.1rem 1.5rem rgba(0,0,0,0.3);
+        display: block;
+        
+        &:hover {
+            background-position:right center;
+            color:#fff;
+        }
+
+    }
+    
+    &.btn-outline-alice {
+        background-color: transparent;
+        color: var(--alice);
+        border-color: var(--alice);
+        &:hover {
+        background-color: var(--alice);
+        color: #fff;
+        }
+    }
+    &.btn-outline-lagoon {
+        background-color: transparent;
+        color: var(--lagoon);
+        border-color: var(--lagoon);
+        &:hover {
+        background-color: var(--lagoon);
+        color: #fff;
+        }
+    }
+    &.btn-outline-cayman {
+        background-color: transparent;
+        color: var(--cayman);
+        border-color: var(--cayman);
+        &:hover {
+        background-color: var(--cayman);
+        color: #fff;
+        }
+    }
+    &.btn-outline-maroon {
+        background-color: transparent;
+        color: var(--maroon);
+        border-color: var(--maroon);
+        &:hover {
+        background-color: var(--maroon);
+        color: #fff;
+        }
+    }
+    &.btn-outline-dark {
+        background-color: transparent;
+        color: var(--dark);
+        border-color: var(--dark);
+        &:hover {
+        background-color: var(--dark);
+        color: #fff;
+        }
+    }
+    &.btn-outline-mint {
+        background-color: transparent;
+        color: var(--mint);
+        border-color: var(--mint);
+        &:hover {
+        background-color: var(--mint);
+        color: #fff;
+        }
+    }
+    &.btn-outline-light {
+        background-color: transparent;
+        color: #f8f9fa;
+        border-color: #f8f9fa;
+        &:hover {
+        background-color: #f8f9fa;
+        color: #000;
+        }
+    }
+    &.btn-outline-neo {
+        background-color: transparent;
+        color: var(--neo);
+        border-color: var(--neo);
+        &:hover {
+        background-color: var(--neo);
+        color: #000;
+        }
+    }
+    &.btn-outline-neon {
+        background-color: transparent;
+        color: var(--neon);
+        border-color: var(--neon);
+        &:hover {
+        background-color: var(--neon);
+        color: #000;
+        }
+    }
+    &.btn-outline-orange {
+        background-color: transparent;
+        color: var(--orange);
+        border-color: var(--orange);
+        &:hover {
+        background-color: var(--orange);
+        color: #000;
+        }
+    }
+    &.btn-outline-lime {
+        background-color: transparent;
+        color: var(--lime);
+        border-color: var(--lime);
+        &:hover {
+        background-color: var(--lime);
+        color: #000;
+        }
+    }
+    &.btn-outline-olive {
+        background-color: transparent;
+        color: var(--olive);
+        border-color: var(--olive);
+        &:hover {
+        background-color: var(--olive);
+        color: #000;
+        }
+    }
+    &.btn-outline-sea {
+        background-color: transparent;
+        color: var(--sea);
+        border-color: var(--sea);
+        &:hover {
+        background-color: var(--sea);
+        color: #000;
+        }
+    }
+    &.btn-outline-gray {
+        background-color: transparent;
+        color: var(--gray);
+        border-color: var(--gray);
+        &:hover {
+        background-color: var(--gray);
+        color: #000;
+        }
+    }
+    &.btn-outline-purly {
+        background-color: transparent;
+        color: var(--purly);
+        border-color: var(--purly);
+        &:hover {
+        background-color: var(--purly);
+        color: #000;
+        }
+    }
+    &.btn-sm {
+        padding: 5px 10px;
+        font-size: .8em;
+    }
+    &.btn-lg {
+        padding: 10px 20px;
+        font-size: 1.2em;
+    }
+    &.btn-block {
+        display: block;
+        width: 100%;
+    }
+    &.btn-link {
+        background-color: transparent;
+        color: var(--alice);
+        border-color: transparent;
+        &:hover {
+        background-color: transparent;
+        color: var(--alice-active);
+        }
+    }
+}
