@@ -1,3 +1,4 @@
+@import './base';
 .text-left {
   text-align: left !important;
 }
@@ -18,31 +19,7 @@
 .text-white {
   color: #ffffff !important;
 }
-
-.text-black {
-  color: #000000 !important;
-}
-
-.text-gray {
-  color: #6b7280 !important;
-}
-
-.text-primary {
-  color: #3b82f6 !important;
-}
-
-.text-success {
-  color: #10b981 !important;
-}
-
-.text-warning {
-  color: #f59e0b !important;
-}
-
-.text-danger {
-  color: #ef4444 !important;
-}
-
+.text-black
 // Text transform utilities
 .text-uppercase {
   text-transform: uppercase !important;
@@ -71,245 +48,241 @@
 //====================================================
 
 .text-alice {
-    color:var(--alice);
+    color:var(--alice) !important;
     
 }
 .text-alice-25 {
-    color:var(--alice-25);
+    color:var(--alice-25) !important;
     
 }
 .text-alice-50 {
-    color:var(--alice-50);
+    color:var(--alice-50) !important;
     
 }  
 .text-alice-75 {
-    color:var(--alice-75);
+    color:var(--alice-75) !important;
     
 }
-//======================================================
 
-.text-white {
-    color:#ffffff;
-}
 //======================================================
 .text-dark {
-    color:var(--dark);
+    color:var(--dark) !important;
     
 }
 .text-dark-25 {
-    color:var(--dark-25);
+    color:var(--dark-25) !important;;
     
 }
 .text-dark-50 {
-    color:var(--dark-50);
+    color:var(--dark-50) !important;;
     
 }
 .text-dark-75 {
-    color:var(--dark-75);
+    color:var(--dark-75) !important;;
     
 }
 //======================================================
 .text-lagoon {
-    color:var(--lagoon);
+    color:var(--lagoon) !important;;
     
 }
 .text-lagoon-25 {
-    color:var(--lagoon-25);
+    color:var(--lagoon-25) !important;;
     
 }
 .text-lagoon-50 {
-    color:var(--lagoon-50);
+    color:var(--lagoon-50) !important;;
     
 }
 .text-lagoon-75 {
-    color:var(--lagoon-75);
+    color:var(--lagoon-75) !important;;
     
 }
 //======================================================
 .text-cayman {
-    color:var(--cayman);
+    color:var(--cayman) !important;
     
 }
 .text-cayman-25 {
-    color:var(--cayman-25);
+    color:var(--cayman-25) !important;;
     
 }
 .text-cayman-50 {
-    color:var(--cayman-50);
+    color:var(--cayman-50) !important;;
     
 }
 .text-cayman-75 {
-    color:var(--cayman-75);
+    color:var(--cayman-75) !important;;
     
 }
 //======================================================
 .text-maroon {
-    color:var(--maroon);
+    color:var(--maroon) !important;
     
 }
 .text-maroon-25 {
-    color:var(--maroon-25);
+    color:var(--maroon-25) !important;;
     
 }
 .text-maroon-50 {
-    color:var(--maroon-50);
+    color:var(--maroon-50) !important;;
     
 }
 .text-maroon-75 {
-    color:var(--maroon-75);
+    color:var(--maroon-75) !important;;
     
 }
 //======================================================
 .text-mint {
-    color:var(--mint);
+    color:var(--mint) !important;
     
 }
 .text-mint-25 {
-    color:var(--mint-25);
+    color:var(--mint-25) !important;;
     
 }
 .text-mint-50 {
-    color:var(--mint-50);
+    color:var(--mint-50) !important;;
     
 }
 .text-mint-75 {
-    color:var(--mint-75);
+    color:var(--mint-75) !important;;
     
 }
 //======================================================
 .text-neo {
-    color:var(--neo);
+    color:var(--neo) !important;
     
 }
 .text-neo-25 {
-    color:var(--neo-25);
+    color:var(--neo-25) !important;
     
 }
 .text-neo-50 {
-    color:var(--neo-50);
+    color:var(--neo-50) !important;
     
 }
 .text-neo-75 {
-    color:var(--neo-75);
+    color:var(--neo-75) !important;
     
 }
 //======================================================
 .text-neon {
-    color:var(--neon);
+    color:var(--neon) !important;
     
 }
 .text-neon-25 {
-    color:var(--neon-25);
+    color:var(--neon-25) !important;;
     
 }
 .text-neon-50 {
-    color:var(--neon-50);
+    color:var(--neon-50) !important;;
     
 }
 .text-neon-75 {
-    color:var(--neon-75);
+    color:var(--neon-75) !important;;
     
 }
 //======================================================
 .text-orange {
-    color:var(--orange);
+    color:var(--orange) !important;
     
 }
 .text-orange-25 {
-    color:var(--orange-25);
+    color:var(--orange-25) !important;;
     
 }
 .text-orange-50 {
-    color:var(--orange-50);
+    color:var(--orange-50) !important;;
     
 }
 .text-orange-75 {
-    color:var(--orange-75);
+    color:var(--orange-75) !important;;
     
 }
 //======================================================
 .text-lime {
-    color:var(--lime);
+    color:var(--lime) !important;
     
 }
 .text-lime-25 {
-    color:var(--lime-25);
+    color:var(--lime-25) !important;;
     
 }
 .text-lime-50 {
-    color:var(--lime-50);
+    color:var(--lime-50) !important;;
     
 }
 .text-lime-75 {
-    color:var(--lime-75);
+    color:var(--lime-75) !important;;
     
 }
 //======================================================
 .text-olive {
-    color:var(--olive);
+    color:var(--olive) !important;;
     
 }
 .text-olive-25 {
-    color:var(--olive-25);
+    color:var(--olive-25) !important;;
     
 }
 .text-olive-50 {
-    color:var(--olive-50);
+    color:var(--olive-50) !important;;
     
 }
 .text-olive-75 {
-    color:var(--olive-75);
+    color:var(--olive-75) !important;;
     
 }
 //======================================================
 .text-sea {
-    color:var(--sea);
+    color:var(--sea) !important;
     
 }
 .text-sea-25 {
-    color:var(--sea-25);
+    color:var(--sea-25) !important;;
     
 }
 .text-sea-50 {
-    color:var(--sea-50);
+    color:var(--sea-50) !important;;
     
 }
 .text-sea-75 {
-    color:var(--sea-75);
+    color:var(--sea-75) !important;;
     
 }
 //======================================================
 .text-gray {
-    color:var(--gray);
+    color:var(--gray) !important;
     
 }
 .text-gray-25 {
-    color:var(--gray-25);
+    color:var(--gray-25) !important;;
     
 }
 .text-gray-50 {
-    color:var(--gray-50);
+    color:var(--gray-50) !important;;
     
 }
 .text-gray-75 {
-    color:var(--gray-75);
+    color:var(--gray-75) !important;;
     
 }
 //======================================================
 .text-purly {
-    color:var(--purly);
+    color:var(--purly) !important;;
     
 }
 .text-purly-25 {
-    color:var(--purly-25);
+    color:var(--purly-25) !important;;
     
 }
 .text-purly-50 {
-    color:var(--purly-50);
+    color:var(--purly-50) !important;;
     
 }
 .text-purly-75 {
-    color:var(--purly-75);
+    color:var(--purly-75) !important;;
     
 }
 //======================================================
