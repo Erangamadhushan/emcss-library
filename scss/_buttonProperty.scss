@@ -2,15 +2,15 @@
     background-color: #fff;
     color: #000;
     font-size: 1em;
-    cursor: pointer;
+    cursor: pointer !important;
     transition: all 0.3s;
     &.btn-alice {
         background-color:var(--alice) !important;
         color: #fff;
         border-color: var(--alice);
         &:hover {
-        background-color: var(--alice-active);
-        border-color: var(--alice-active);
+            background-color: var(--alice-active) !important;
+            border-color: var(--alice-active);
         }
     }&
     &.btn-lagoon {
@@ -18,8 +18,8 @@
         color: #fff;
         border-color: var(--lagoon);
         &:hover {
-        background-color:var(--lagoon-active);
-        border-color: var(--lagoon-active);
+            background-color:var(--lagoon-active);
+            border-color: var(--lagoon-active);
         }
     }
     &.btn-cayman {
@@ -27,8 +27,8 @@
         color: #fff;
         border-color: var(--cayman);
         &:hover {
-        background-color: var(--cayman-50);
-        border-color: var(--cayman-active);
+            background-color: var(--cayman-50);
+            border-color: var(--cayman-active);
         }
     }
     &.btn-maroon {
@@ -36,8 +36,8 @@
         color: #fff;
         border-color: var(--maroon);
         &:hover {
-        background-color: var(--maroon-active);
-        border-color: var(--maroon-active);
+            background-color: var(--maroon-active);
+            border-color: var(--maroon-active);
         }
     }
     // background-color: #ffc107(warning);
@@ -46,8 +46,8 @@
         color: #fff;
         border-color: var(--dark);
         &:hover {
-        background-color: var(--dark-active);
-        border-color: var(--dark-active);
+            background-color: var(--dark-active);
+            border-color: var(--dark-active);
         }
     }
     //#17a2b8(info);
@@ -56,8 +56,8 @@
         color: #fff;
         border-color: var(--mint);
         &:hover {
-        background-color: var(--mint-active);
-        border-color: var(--mint-active);
+            background-color: var(--mint-active);
+            border-color: var(--mint-active);
         }
     }
     //#f8f9fa(light);
@@ -66,8 +66,8 @@
         color: #000;
         border-color: #f8f9fa;
         &:hover {
-        background-color: #e2e6ea;
-        border-color: #dae0e5;
+            background-color: #e2e6ea;
+            border-color: #dae0e5;
         }
     }
     //#28a745(success);
@@ -78,8 +78,8 @@
         color: #000;
         border-color: var(--neo);
         &:hover {
-        background-color: var(--neo-active);
-        border-color: var(--neo-active);
+            background-color: var(--neo-active);
+            border-color: var(--neo-active);
         }
     }
     &.btn-neon {
@@ -123,8 +123,8 @@
         color: #000;
         border-color: var(--sea);
         &:hover {
-        background-color: var(--sea-active);
-        border-color: var(--sea-active);
+            background-color: var(--sea-active);
+            border-color: var(--sea-active);
         }
     }
     &.btn-gray {
@@ -132,8 +132,8 @@
         color: #000;
         border-color: var(--gray);
         &:hover {
-        background-color: var(--gray-active);
-        border-color: var(--gray-active);
+            background-color: var(--gray-active);
+            border-color: var(--gray-active);
         }
     }
     &.btn-purly {
@@ -141,8 +141,8 @@
         color: #000;
         border-color: var(--purly);
         &:hover {
-        background-color: var(--purly-active);
-        border-color: var(--purly-active);
+            background-color: var(--purly-active);
+            border-color: var(--purly-active);
         }
     }
 

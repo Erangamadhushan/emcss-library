@@ -1,84 +1,84 @@
 /*display-content*/
 .display-1 {font-size:var(--display-1);font-weight:100;} .display-2 {font-size:var(--display-2);font-weight:100;} .display-3 {font-size:var(--display-3);font-weight:100;} .display-4 {font-size:var(--display-4);font-weight:100;} .display-5 {font-size:var(--display-5);font-weight:100;} .display-6 {font-size:var(--display-6);font-weight:100;}
 .flex {
-    display:flex;
+    display:flex !important;
     position:relative;
     &.justify-center {
-        justify-content: center;
+        justify-content: center !important;
     }
     &.justify-end {
-        justify-content:end;
+        justify-content:end !important;
     }
     &.justify-betweeen {
-        justify-content: space-between;
+        justify-content: space-between !important;;
     }
     &.justify-evenly {
-        justify-content:space-evenly;
+        justify-content:space-evenly !important;;
     }
     &.justify-around {
-        justify-content:space-around;
+        justify-content:space-around !important;;
     }
     &.items-center {
-        align-items: center;
+        align-items: center !important;
     }
     &.items-end {
-        align-items:end;
+        align-items:end !important;
     }
     &.items-start {
-        align-items:start;
+        align-items:start !important;
     }
     &.items-stretch {
-        align-items: stretch;
+        align-items: stretch !important;;
     }
     &.align-content-center {
-        align-content:center;
+        align-content:center !important;;
     }
     &.align-content-baseline {
-        align-content:baseline;
+        align-content:baseline !important;;
         
     }
     &.align-content-stretch {
-        align-content:stretch;
+        align-content:stretch !important;;
     }
 
     //================================================================
 
     &.gap-1 {
-        gap:.4em;
+        gap:.4em !important;
     }
     &.gap-2 {
-        gap:.6em;
+        gap:.6em !important;
     }
     &.gap-3 {
-        gap:.8em;
+        gap:.8em !important;
     }
     &.gap-4 {
-        gap:1em;
+        gap:1em !important;
     }
     &.gap-5 {
-        gap:1.5em;
+        gap:1.5em !important;;
     }
 
 }
 
 .grid {
-    display:grid;
+    display:grid !important;
     position:relative;
 
     &.gap-1 {
-        gap:.4em;
+        gap:.4em !important;
     }
     &.gap-2 {
-        gap:.6em;
+        gap:.6em !important;
     }
     &.gap-3 {
-        gap:.8em;
+        gap:.8em !important;
     }
     &.gap-4 {
-        gap:1em;
+        gap:1em !important;
     }
     &.gap-5 {
-        gap:1.5em;
+        gap:1.5em !important;;
     } 
     
     &.col-1 {

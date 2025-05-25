@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("./_base.scss");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
   margin: 0;
@@ -116,11 +117,11 @@
   --in:90%;
   --out:100%;
   /*padding values*/
-  --p1:.3em;
-  --p2:.6em;
-  --p3:0.8em;
-  --p4:1.25em;
-  --p5:2.5em;
+  --p1:.15em;
+  --p2:.3em;
+  --p3:0.5em;
+  --p4:1.0em;
+  --p5:1.5em;
   /*font-weight and display-text */
   --display-1:5em;
   --display-2:4.5em;
@@ -129,10 +130,10 @@
   --display-5:3em;
   --display-6:2.5em;
   /*margin values*/
-  --m1:.3em;
-  --m2:.6em;
-  --m3:.8em;
-  --m4:1.25em;
+  --m1:.15em;
+  --m2:.3em;
+  --m3:0.5em;
+  --m4:1.0em;
   --m5:1.5em;
   /*button font size*/
   --s1:1em;
@@ -337,11 +338,11 @@ body {
   --in:90%;
   --out:100%;
   /*padding values*/
-  --p1:.3em;
-  --p2:.6em;
-  --p3:0.8em;
-  --p4:1.25em;
-  --p5:2.5em;
+  --p1:.15em;
+  --p2:.3em;
+  --p3:0.5em;
+  --p4:1.0em;
+  --p5:1.5em;
   /*font-weight and display-text */
   --display-1:5em;
   --display-2:4.5em;
@@ -350,10 +351,10 @@ body {
   --display-5:3em;
   --display-6:2.5em;
   /*margin values*/
-  --m1:.3em;
-  --m2:.6em;
-  --m3:.8em;
-  --m4:1.25em;
+  --m1:.15em;
+  --m2:.3em;
+  --m3:0.5em;
+  --m4:1.0em;
   --m5:1.5em;
   /*button font size*/
   --s1:1em;
@@ -679,7 +680,7 @@ body {
   background-color: #fff;
   color: #000;
   font-size: 1em;
-  cursor: pointer;
+  cursor: pointer !important;
   transition: all 0.3s;
 }
 .btn.btn-alice {
@@ -688,7 +689,7 @@ body {
   border-color: var(--alice);
 }
 .btn.btn-alice:hover {
-  background-color: var(--alice-active);
+  background-color: var(--alice-active) !important;
   border-color: var(--alice-active);
 }
 .btn .btn.btn-lagoon {
@@ -1271,11 +1272,11 @@ body {
   --in:90%;
   --out:100%;
   /*padding values*/
-  --p1:.3em;
-  --p2:.6em;
-  --p3:0.8em;
-  --p4:1.25em;
-  --p5:2.5em;
+  --p1:.15em;
+  --p2:.3em;
+  --p3:0.5em;
+  --p4:1.0em;
+  --p5:1.5em;
   /*font-weight and display-text */
   --display-1:5em;
   --display-2:4.5em;
@@ -1284,10 +1285,10 @@ body {
   --display-5:3em;
   --display-6:2.5em;
   /*margin values*/
-  --m1:.3em;
-  --m2:.6em;
-  --m3:.8em;
-  --m4:1.25em;
+  --m1:.15em;
+  --m2:.3em;
+  --m3:0.5em;
+  --m4:1.0em;
   --m5:1.5em;
   /*button font size*/
   --s1:1em;
@@ -2425,79 +2426,79 @@ background-color:var(--alice) .alert.alert-alice::before {
 }
 
 .flex {
-  display: flex;
+  display: flex !important;
   position: relative;
 }
 .flex.justify-center {
-  justify-content: center;
+  justify-content: center !important;
 }
 .flex.justify-end {
-  justify-content: end;
+  justify-content: end !important;
 }
 .flex.justify-betweeen {
-  justify-content: space-between;
+  justify-content: space-between !important;
 }
 .flex.justify-evenly {
-  justify-content: space-evenly;
+  justify-content: space-evenly !important;
 }
 .flex.justify-around {
-  justify-content: space-around;
+  justify-content: space-around !important;
 }
 .flex.items-center {
-  align-items: center;
+  align-items: center !important;
 }
 .flex.items-end {
-  align-items: end;
+  align-items: end !important;
 }
 .flex.items-start {
-  align-items: start;
+  align-items: start !important;
 }
 .flex.items-stretch {
-  align-items: stretch;
+  align-items: stretch !important;
 }
 .flex.align-content-center {
-  align-content: center;
+  align-content: center !important;
 }
 .flex.align-content-baseline {
-  align-content: baseline;
+  align-content: baseline !important;
 }
 .flex.align-content-stretch {
-  align-content: stretch;
+  align-content: stretch !important;
 }
 .flex.gap-1 {
-  gap: 0.4em;
+  gap: 0.4em !important;
 }
 .flex.gap-2 {
-  gap: 0.6em;
+  gap: 0.6em !important;
 }
 .flex.gap-3 {
-  gap: 0.8em;
+  gap: 0.8em !important;
 }
 .flex.gap-4 {
-  gap: 1em;
+  gap: 1em !important;
 }
 .flex.gap-5 {
-  gap: 1.5em;
+  gap: 1.5em !important;
 }
 
 .grid {
-  display: grid;
+  display: grid !important;
   position: relative;
 }
 .grid.gap-1 {
-  gap: 0.4em;
+  gap: 0.4em !important;
 }
 .grid.gap-2 {
-  gap: 0.6em;
+  gap: 0.6em !important;
 }
 .grid.gap-3 {
-  gap: 0.8em;
+  gap: 0.8em !important;
 }
 .grid.gap-4 {
-  gap: 1em;
+  gap: 1em !important;
 }
 .grid.gap-5 {
-  gap: 1.5em;
+  gap: 1.5em !important;
 }
 .grid.col-1 {
   grid-template-columns: auto;
@@ -2538,8 +2539,8 @@ background-color:var(--alice) .alert.alert-alice::before {
 
 /* border-radius*/
 .rounded {
-  border-radius: 0.75em;
-  overflow: hidden;
+  border-radius: 0.75em !important;
+  overflow: hidden !important;
 }
 .rounded.rounded-top {
   border-radius: 12px 12px 0 0;
@@ -2557,45 +2558,45 @@ background-color:var(--alice) .alert.alert-alice::before {
   border-radius: 35%;
 }
 .rounded.rounded-1 {
-  border-radius: 0.2em;
+  border-radius: 0.2em !important;
 }
 .rounded.rounded-2 {
-  border-radius: 0.4em;
+  border-radius: 0.4em !important;
 }
 .rounded.rounded-3 {
-  border-radius: 0.6em;
+  border-radius: 0.6em !important;
 }
 .rounded.rounded-4 {
-  border-radius: 0.8em;
+  border-radius: 0.8em !important;
 }
 .rounded.rounded-5 {
-  border-radius: 1em;
+  border-radius: 1em !important;
 }
 .rounded.rounded-full {
-  border-radius: 1.25em;
+  border-radius: 50% !important;
 }
 
 .border {
-  border-width: 1px;
+  border-width: 1px !important;
   border-style: solid;
 }
 .border.border-none {
-  border: none;
+  border: none !important;
 }
 .border.border-1 {
-  border-width: 2px;
+  border-width: 2px !important;
 }
 .border.border-2 {
-  border-width: 4px;
+  border-width: 4px !important;
 }
 .border.border-3 {
-  border-width: 6px;
+  border-width: 6px !important;
 }
 .border.border-4 {
-  border-width: 8px;
+  border-width: 8px !important;
 }
 .border.border-5 {
-  border-width: 10px;
+  border-width: 10px !important;
 }
 .border.border-alice {
   border-color: var(--alice);
@@ -2641,7 +2642,7 @@ background-color:var(--alice) .alert.alert-alice::before {
 }
 
 .outline-none {
-  outline: none;
+  outline: none !important;
 }
 
 .relative {
@@ -2810,9 +2811,12 @@ background-color:var(--alice) .alert.alert-alice::before {
 }
 
 .navbar {
-  display: grid;
+  display: flex !important;
+  justify-content: space-between;
   width: 100vw;
-  max-width: 100%;
+  overflow: hidden !important;
+  max-width: 100% !important;
+  padding: var(--p3) !important;
 }
 .navbar.navbar-dark {
   background-color: var(--dark);
@@ -2856,72 +2860,36 @@ background-color:var(--alice) .alert.alert-alice::before {
 .navbar.navbar-purly {
   background-color: var(--purly);
 }
-.navbar .navbar-expand {
+.navbar .nav-logo {
   position: relative;
-  padding: var(--p3);
-  display: flex;
-  overflow: hidden;
-  align-items: baseline;
+  font-weight: bold !important;
 }
-.navbar .navbar-expand .navbar-logo {
-  position: relative;
+.navbar .nav-link {
+  display: flex !important;
+  list-style: none !important;
+  gap: var(--p3) !important;
+  align-items: center !important;
 }
-.navbar .navbar-expand .navbar-content {
-  position: relative;
-  width: 70%;
+.navbar .nav-link a {
+  text-decoration: none !important;
+  font-weight: 500 !important;
 }
-.navbar .navbar-expand .navbar-content .navbar-content-group {
-  display: flex;
-  position: relative;
-  list-style-type: none;
-  justify-content: center;
-  gap: var(--p3);
+.navbar .nav-toggle {
+  position: relative !important;
+  width: 2em !important;
+  height: 2em !important;
+  display: flex !important;
+  flex-direction: column !important;
+  cursor: pointer !important;
+  align-items: center !important;
+  justify-content: center !important;
 }
-.navbar .navbar-expand .navbar-content .navbar-content-group .navbar-item {
-  position: relative;
-}
-.navbar .navbar-expand .navbar-content .navbar-content-group .navbar-item .navbar-link {
-  text-decoration: none;
-}
-.navbar .navbar-expand .navbar-content .navbar-content-group .navbar-input {
-  position: relative;
-  padding: var(--p3);
-  outline: none;
-  width: 50%;
-  border: none;
-}
-.navbar .navbar-expand .navbar-content .navbar-content-group .navbar-input::placeholder {
-  content: "Ctrl + K";
-}
-.navbar .navbar-expand .navbar-toggler {
-  position: absolute;
-  top: 0;
-  right: 0;
-  display: flex;
-  justify-content: center;
-  width: 10%;
-  display: none;
-}
-.navbar .navbar-expand .navbar-toggler .navbar-toggler-icon {
-  font-size: 2em;
-  color: #fff;
-  background: transparent;
-  border: none;
-  cursor: pointer;
-}
-.navbar .navbar-response {
-  display: none;
-  padding: var(--p3);
-  list-style-type: none;
-}
-.navbar .navbar-response .navbar-content-group {
-  list-style-type: none;
-}
-.navbar .navbar-response .navbar-content-group .navbar-item {
-  margin-bottom: 0.8em;
-}
-.navbar .navbar-response .navbar-content-group .navbar-item .navbar-link {
-  text-decoration: none;
+.navbar .nav-toggle .nav-toggle-icon {
+  font-size: 1.5em !important;
+  color: var(--alice) !important;
+  background-color: transparent !important;
+  border: none !important;
+  cursor: pointer !important;
 }
 
 .form .form-label {
@@ -3803,11 +3771,11 @@ h1, h2, h3, h4, h5, h6, p, a, span, div, li, ul, ol, table, td, tr, th, thead, t
   --in:90%;
   --out:100%;
   /*padding values*/
-  --p1:.3em;
-  --p2:.6em;
-  --p3:0.8em;
-  --p4:1.25em;
-  --p5:2.5em;
+  --p1:.15em;
+  --p2:.3em;
+  --p3:0.5em;
+  --p4:1.0em;
+  --p5:1.5em;
   /*font-weight and display-text */
   --display-1:5em;
   --display-2:4.5em;
@@ -3816,10 +3784,10 @@ h1, h2, h3, h4, h5, h6, p, a, span, div, li, ul, ol, table, td, tr, th, thead, t
   --display-5:3em;
   --display-6:2.5em;
   /*margin values*/
-  --m1:.3em;
-  --m2:.6em;
-  --m3:.8em;
-  --m4:1.25em;
+  --m1:.15em;
+  --m2:.3em;
+  --m3:0.5em;
+  --m4:1.0em;
   --m5:1.5em;
   /*button font size*/
   --s1:1em;
