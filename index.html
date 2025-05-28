@@ -6,17 +6,35 @@
         <title>Test Web</title>
         <link rel="stylesheet" href="./scss/style.css">
     </head>
-    <body class="">
-        <div>
-            <h1 class="text-maroon p-2 px-5">Test Web</h1>
-            <p class="text-maroon p-2 px-5">This is a test web page.</p>
-            <p class="text-maroon p-2 px-5">It is used to test the web server.</p>
-            <p class="text-maroon p-2 px-5">It is also used to test the web server with a custom CSS file.</p>
-            <p class="text-maroon p-2 px-5">It is also used to test the web server with a custom JavaScript file.</p>
-            <p class="text-maroon p-2 px-5">It is also used to test the web server with a custom jQuery file.</p>
+    <body class="bg-purly">
+        <div class="bg-maroon-25">
+            <h1 class="text-white p-2 px-5">Test Web</h1>
+            <p class="text-white p-2 px-5">This is a test web page.</p>
+            <p class="text-white p-2 px-5">It is used to test the web server.</p>
+            <p class="text-white p-2 px-5">It is also used to test the web server with a custom CSS file.</p>
+            <p class="text-white p-2 px-5">It is also used to test the web server with a custom JavaScript file.</p>
+            <p class="text-white p-2 px-5">It is also used to test the web server with a custom jQuery file.</p>
         </div>
-        <div>
-            <button class="btn btn-outline-sea p-5">Click Me</button>
+        <div class="p-5 my-5">
+            <button type="button" onclick="javascript:window.alert('Hello I\'m clickable button !')" class="btn btn-white p-4 ">Click Me</button>
+        </div>
+        <nav class="bg-lime-25 p-4 flex justify-between  px-5">
+            <div>
+                <h3 class="text-maroon-900"><a href="#" class="text-none text-maroon">Navigation</a></h3>
+            </div>
+            <div class="hidden  gap-4">
+                <a href="#" class="text-maroon-900 text-none">Home</a>
+                <a href="#" class="text-maroon-900 text-none">About</a>
+                <a href="#" class="text-maroon-900 text-none">Contact</a>
+                <a href="#" class="text-maroon-900 text-none">Help</a>
+            </div>
+        </nav>
+        <div class="my-5 bg-cayman-50 p-5 min-h-screen">
+            <div class="flex items-center">
+                <div class="w-75 p-4">
+                    <h1 class="text-white md:text-h2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam voluptas eligendi velit rerum reprehenderit optio aliquid saepe veniam, repellat impedit, doloremque pariatur cum aspernatur consequuntur tempore soluta odit! A, perferendis.</h1>
+                </div>
+            </div>
         </div>
         
         <script defer src="js/jquery.js"></script>

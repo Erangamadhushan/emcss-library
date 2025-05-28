@@ -39,6 +39,9 @@
 .text-italic {
   font-style: italic !important;
 }
+.text-none {
+    text-decoration: none !important;
+}
 .text-underline {
   text-decoration: underline !important;
 }
@@ -287,4 +290,43 @@
 }
 //======================================================
 
+.text-sm {
+    font-size: 0.875rem !important; // 14px
+}
+.text-md {
+    font-size: 1rem !important; // 16px
+}
+.text-lg {
+    font-size: 1.125rem !important; 
+}
+.text-xl {
+    font-size: 1.25rem !important; // 20px
+}
+.text-xxl {
+    font-size: 1.5rem !important; // 24px
+}
 
+.text-h6 {
+    font-size: 1.25rem !important; // 20px
+    font-weight: 600 !important;
+}
+.text-h5 {
+    font-size: 1.5rem !important; // 24px
+    font-weight: 600 !important;
+}
+.text-h4 {
+    font-size: 1.75rem !important; // 28px
+    font-weight: 600 !important;
+}
+.text-h3 {
+    font-size: 2.25rem !important; // 36px
+    font-weight: 600 !important;
+}
+.text-h2 {
+    font-size: 3rem !important; // 48px
+    font-weight: 600 !important;
+}
+.text-h1 {
+    font-size: 4rem !important; // 64px
+    font-weight: 600 !important;
+}

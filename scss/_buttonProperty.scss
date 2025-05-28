@@ -1,18 +1,20 @@
+@import './base';
 .btn {
     background-color: #fff;
     color: #000;
     font-size: 1em;
+    border: none;
     cursor: pointer !important;
     transition: all 0.3s;
     &.btn-alice {
         background-color:var(--alice) !important;
-        color: #fff;
+        color: #000;
         border-color: var(--alice);
         &:hover {
             background-color: var(--alice-active) !important;
             border-color: var(--alice-active);
         }
-    }&
+    }
     &.btn-lagoon {
         background-color: var(--lagoon) !important;
         color: #fff;
@@ -138,7 +140,7 @@
     }
     &.btn-purly {
         background-color: var(--purly);
-        color: #000;
+        color: #fff;
         border-color: var(--purly);
         &:hover {
             background-color: var(--purly-active);
