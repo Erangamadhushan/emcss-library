@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("./_base.scss");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
@@ -676,28 +677,196 @@ body {
   background: transparent;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /*==================================================== color =====================================================*/
+  /*===============================================*/
+  /* alice */
+  --alice:#dfe0e1;
+  --alice-25:#f9fafb;
+  --alice-50:#f9fafb;
+  --alice-75:#f8f9fa;
+  /*===============================================*/
+  /*lagoon*/
+  --lagoon:#011b02;
+  --lagoon-25:#677a68;
+  --lagoon-50:#344e35;
+  --lagoon-75:#012203;
+  /*===============================================*/
+  /*cayman*/
+  --cayman:#141430;
+  --cayman-25:#323379;
+  --cayman-50:#282960;
+  --cayman-75:#1e1f48;
+  /* #041e42*/
+  /*===============================================*/
+  /*dark*/
+  --dark:#10151c;
+  --dark-25:#19212c;
+  --dark-50:#161d27;
+  --dark-75:#131921;
+  /*===============================================*/
+  /*maroon*/
+  --maroon:#bf0036;
+  --maroon-25:#f11a57;
+  --maroon-50:#ef0044;
+  --maroon-75:#d7003d;
+  /*==============================================*/
+  /*mint*/
+  --mint:#347929;
+  --mint-25:#619e57;
+  --mint-50:#4e9242;
+  --mint-75:#3a862d;
+  /*===============================================*/
+  /*neo*/
+  --neo:#fbd12c;
+  --neo-25:#fce073;
+  --neo-50:#fcdb5b;
+  --neo-75:#fbd644;
+  /*===============================================*/
+  /*neon*/
+  --neon:#10b981;
+  --neon-25:#58cea7;
+  --neon-50:#40c79a;
+  --neon-75:#28c08e;
+  /*===============================================*/
+  /*orange*/
+  --orange:#f97316;
+  --orange-25:#fb9d5c;
+  --orange-50:#fa8f45;
+  --orange-75:#fa812d;
+  /*===============================================*/
+  /*olive*/
+  --olive:#a3b18a;
+  --olive-25:#bfc8ad;
+  --olive-50:#b5c1a1;
+  --olive-75:#acb996;
+  /*===============================================*/
+  /*lime*/
+  --lime:#22c55e;
+  --lime-25:#64d68e;
+  --lime-50:#4ed17e;
+  --lime-75:#38cb6e;
+  /*==============================================*/
+  /*sea*/
+  --sea:#70aefb;
+  --sea-25:#80b7fb;
+  --sea-50:#90c0fc;
+  --sea-75:#80b7fb;
+  /*==============================================*/
+  /*gray*/
+  --gray:#49494a;
+  --gray-25:#929294;
+  --gray-50:#7a7a7b;
+  --gray-75:#616262;
+  /*==============================================*/
+  /*purly*/
+  --purly:#8644c6;
+  --purly-25:#b166f8;
+  --purly-50:#a855f7;
+  --purly-75:#974dde;
+  /*active-colors*/
+  --alice-active:#f9fafb;
+  --lagoon-active:#344e35;
+  --cayman-active:#282960;
+  --dark-active:#161d27;
+  --maroon-active:#ef0044;
+  --mint-active:#4e9242;
+  --neo-active:#fcdb5b;
+  --neon-active:#40c79a;
+  --orange-active:#fa8f45;
+  --olive-active:#b5c1a1;
+  --lime-active:#4ed17e;
+  --sea-active:#90c0fc;
+  --gray-active:#7a7a7b;
+  --purly-active:#a855f7;
+  /*==================================================== color =====================================================*/
+  /*container width*/
+  --in:90%;
+  --out:100%;
+  /*padding values*/
+  --p1:.15em;
+  --p2:.3em;
+  --p3:0.5em;
+  --p4:1.0em;
+  --p5:1.5em;
+  /*font-weight and display-text */
+  --display-1:5em;
+  --display-2:4.5em;
+  --display-3:4em;
+  --display-4:3.5em;
+  --display-5:3em;
+  --display-6:2.5em;
+  /*margin values*/
+  --m1:.15em;
+  --m2:.3em;
+  --m3:0.5em;
+  --m4:1.0em;
+  --m5:1.5em;
+  /*button font size*/
+  --s1:1em;
+  --s2:1.05em;
+  --s3:1.15em;
+  --s4:1.25em;
+  --s5:1.5em;
+  /*heading font size*/
+  --h1:2.25em;
+  --h2:2em;
+  --h3:1.8em;
+  --h4:1.4em;
+  --h5:1.2em;
+  --h6:1.1em;
+  /*cell values */
+  --cell1:8.33%;
+  --cell2:16.67%;
+  --cell3:25%;
+  --cell4:33.33%;
+  --cell5:41.67%;
+  --cell6:50%;
+  --cell7:58.33%;
+  --cell8:66.67%;
+  --cell9:75%;
+  --cell10:83.33%;
+  --cell11:91.67%;
+  --cell12:100%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+}
+
 .btn {
   background-color: #fff;
   color: #000;
   font-size: 1em;
+  border: none;
   cursor: pointer !important;
   transition: all 0.3s;
 }
 .btn.btn-alice {
   background-color: var(--alice) !important;
-  color: #fff;
+  color: #000;
   border-color: var(--alice);
 }
 .btn.btn-alice:hover {
   background-color: var(--alice-active) !important;
   border-color: var(--alice-active);
 }
-.btn .btn.btn-lagoon {
+.btn.btn-lagoon {
   background-color: var(--lagoon) !important;
   color: #fff;
   border-color: var(--lagoon);
 }
-.btn .btn.btn-lagoon:hover {
+.btn.btn-lagoon:hover {
   background-color: var(--lagoon-active);
   border-color: var(--lagoon-active);
 }
@@ -811,7 +980,7 @@ body {
 }
 .btn.btn-purly {
   background-color: var(--purly);
-  color: #000;
+  color: #fff;
   border-color: var(--purly);
 }
 .btn.btn-purly:hover {
@@ -1364,6 +1533,10 @@ body {
 
 .text-italic {
   font-style: italic !important;
+}
+
+.text-none {
+  text-decoration: none !important;
 }
 
 .text-underline {
@@ -2435,7 +2608,7 @@ background-color:var(--alice) .alert.alert-alice::before {
 .flex.justify-end {
   justify-content: end !important;
 }
-.flex.justify-betweeen {
+.flex.justify-between {
   justify-content: space-between !important;
 }
 .flex.justify-evenly {
