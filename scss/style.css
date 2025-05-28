@@ -2631,37 +2631,6 @@ background-color:var(--alice) .alert.alert-alice::before {
   background-image: linear-gradient(to right, var(--purly) 50%, var(--purly-active) 100%);
 }
 
-/*display-content*/
-.display-1 {
-  font-size: var(--display-1);
-  font-weight: 100;
-}
-
-.display-2 {
-  font-size: var(--display-2);
-  font-weight: 100;
-}
-
-.display-3 {
-  font-size: var(--display-3);
-  font-weight: 100;
-}
-
-.display-4 {
-  font-size: var(--display-4);
-  font-weight: 100;
-}
-
-.display-5 {
-  font-size: var(--display-5);
-  font-weight: 100;
-}
-
-.display-6 {
-  font-size: var(--display-6);
-  font-weight: 100;
-}
-
 .flex {
   display: flex !important;
   position: relative;
@@ -2774,19 +2743,52 @@ background-color:var(--alice) .alert.alert-alice::before {
   grid-template-columns: auto;
 }
 
+.hidden {
+  display: none !important;
+}
+
+/*display-content*/
+.display-1 {
+  font-size: var(--display-1);
+  font-weight: 100;
+}
+
+.display-2 {
+  font-size: var(--display-2);
+  font-weight: 100;
+}
+
+.display-3 {
+  font-size: var(--display-3);
+  font-weight: 100;
+}
+
+.display-4 {
+  font-size: var(--display-4);
+  font-weight: 100;
+}
+
+.display-5 {
+  font-size: var(--display-5);
+  font-weight: 100;
+}
+
 /* border-radius*/
 .rounded {
   border-radius: 0.75em !important;
   overflow: hidden !important;
 }
 .rounded.rounded-top {
-  border-radius: 12px 12px 0 0;
+  border-radius: 0.75em 0.75em 0 0;
 }
 .rounded.rounded-end {
-  border-radius: 0 12px 12px 0;
+  border-radius: 0 0.75em 0.75em 0;
 }
 .rounded.rounded-start {
-  border-radius: 12px 0 0 12px;
+  border-radius: 0.75em 0 0 0.75em;
+}
+.rounded.rounded-bottom {
+  border-radius: 0 0 0.75em 0.75em;
 }
 .rounded.rounded-circle {
   border-radius: 50%;
@@ -2819,6 +2821,15 @@ background-color:var(--alice) .alert.alert-alice::before {
 }
 .border.border-none {
   border: none !important;
+}
+.border.border-dotted {
+  border-style: dotted !important;
+}
+.border.border-dashed {
+  border-style: dashed !important;
+}
+.border.border-double {
+  border-style: double !important;
 }
 .border.border-1 {
   border-width: 2px !important;

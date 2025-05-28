@@ -1,5 +1,4 @@
-/*display-content*/
-.display-1 {font-size:var(--display-1);font-weight:100;} .display-2 {font-size:var(--display-2);font-weight:100;} .display-3 {font-size:var(--display-3);font-weight:100;} .display-4 {font-size:var(--display-4);font-weight:100;} .display-5 {font-size:var(--display-5);font-weight:100;} .display-6 {font-size:var(--display-6);font-weight:100;}
+
 .flex {
     display:flex !important;
     position:relative;
@@ -129,4 +128,30 @@
         grid-template-columns:auto;
     }
     
+}
+
+.hidden {
+    display:none !important;
+}
+//================================================================
+/*display-content*/
+.display-1 {
+    font-size: var(--display-1);
+    font-weight: 100;
+}
+.display-2 {
+    font-size: var(--display-2);
+    font-weight: 100;
+}
+.display-3 {
+    font-size: var(--display-3);
+    font-weight: 100;
+}
+.display-4 {
+    font-size: var(--display-4);
+    font-weight: 100;
+}
+.display-5 {
+    font-size: var(--display-5);
+    font-weight: 100;
 }
